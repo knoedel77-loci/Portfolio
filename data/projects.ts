@@ -355,7 +355,7 @@ interactionSection: {
   title: "Iterative Design-Based Research Process",
   description:
     `Diese Arbeit folgt einem iterativen, forschungsbasierten Designprozess. Die theoretischen Grundlagen wurden durch zwei Usertests überprüft, erweitert und kontinuierlich reflektiert. Die daraus gewonnenen Erkenntnisse aus Theorie und Interaktion wurden zu Designprinzipien verdichtet, die in die Entwicklung eines konzeptionellen Systemmodells eingeflossen sind.`,
-  image: "/images/projects/iteration.png",
+  image: "/Images/projects/iteration.png",
   imageAlt:
     "Diagram showing the iterative design-based research process of the bachelor thesis",
 },
@@ -419,7 +419,7 @@ Zentrale Rolle übernimmt ein Sprachmodell, das Nutzereingaben interpretiert und
 
 Die Architektur bildet kein lineares Ablaufschema, sondern ein adaptives Zusammenspiel aus Interaktion, Steuerung und Gedächtnisstruktur, das sich kontinuierlich an den Verlauf des Lernprozesses anpasst.
 `,
-    image: "/images/projects/bachelor/5.1.png",
+    image: "/Images/projects/bachelor/5.1.png",
     imageAlt: "Abbildung 5.1 - Überblick über die technische Systemarchitektur",
     caption: `Die Abbildung zeigt die grundlegende Systemarchitektur: Nutzereingaben werden vom Sprachmodell interpretiert und über eine zwischengelagerte Steuerlogik in passende Modi, Werkzeuge und Speicherbereiche überführt. Abhängig vom Kontext werden spezialisierte Module aktiviert und unterschiedliche Gedächtnisformen angesprochen.`,
   },
@@ -434,7 +434,7 @@ Während der Navigationsmodus den Zugriff auf gespeicherte Gedächtnisstrukturen
 
 Die Moduslogik bildet damit die zentrale Steuerungsebene des Systems und ermöglicht eine situative Anpassung von Interaktion, Verarbeitung und Zugriff auf unterschiedliche Speicherformen.
 `,   caption: `Die Abbildung zeigt den Ablauf eines Moduswechsels im System. Ausgehend von einer Nutzereingabe wird der Intent durch das Sprachmodell analysiert und geprüft, ob ein Wechsel des Interaktionsmodus erforderlich ist. Wird ein Wechsel erkannt, übernimmt eine externe Steuerlogik die Aktualisierung der Systemkonfiguration, lädt entsprechende Modusprompts sowie zugehörige Tools und Datenzugriffe und übergibt diese an das Sprachmodell. Die ursprüngliche Anfrage wird anschließend auf Basis der neuen Konfiguration verarbeitet.`,
-    image: "/images/projects/bachelor/5.3.png",
+    image: "/Images/projects/bachelor/5.3.png",
     imageAlt: "Abbildung 5.2 - Ablaufsteuerung bei einem Moduswechsel",
   },
 
@@ -453,7 +453,7 @@ Das Profil wirkt damit nicht als passiver Speicher, sondern als verhaltenssteuer
 Die Abbildung zeigt die mehrschichtige Struktur des Nutzerprofils sowie dessen zyklische Weiterentwicklung. 
 Statische, dynamische und temporäre Informationen werden getrennt erfasst und kontextabhängig in die Systemsteuerung integriert.  Anpassungen des dynamischen Profils erfolgen ausschließlich über wiederkehrende Musteranalysen und werden erst nach dialogischer Rückkopplung und Zustimmung übernommen.
 `,
-    image: "/images/projects/bachelor/5.2.png",
+    image: "/Images/projects/bachelor/5.2.png",
     imageAlt: "Abbildung 5.4 - Reflexionsprozess zur Profilanpassung",
   },
 
@@ -471,7 +471,7 @@ Der Modus macht damit sichtbar, wie adaptive Unterstützung, Rückkopplung und N
     caption: `
 Die Abbildung zeigt die dialogisch-adaptive Feedbackschleife des Vividness-Modus.  Dargestellt ist der Prozess zwischen Szeneingabe, Analyse, Rückmeldung und Anpassung, einschließlich der beteiligten Systemkomponenten.  Hervorgehoben sind Entscheidungswege, Rückfragen sowie die Bedingungen für eine mögliche Speicherung.
 `,
-    image: "/images/projects/bachelor/5.4.png",
+    image: "/Images/projects/bachelor/5.4.png",
     imageAlt: "Abbildung 5.5 - Dialogisch-adaptive Feedbackschleife des Vividness-Modus",
   },
 
@@ -482,7 +482,7 @@ Der Gedächtnispalast basiert auf der Verknüpfung räumlicher, bildhafter und s
 
 Diese Modellierung überträgt die Funktionsweise des Gedächtnispalasts in eine formale Struktur, in der Beziehungen explizit gespeichert und verarbeitet werden können. Die zugrunde liegende Netzwerkstruktur bleibt für Nutzer:innen unsichtbar und dient ausschließlich der internen Organisation, Analyse und Navigation innerhalb des Systems.
 `,
-  image: "/images/projects/bachelor/5.5.png",
+  image: "/Images/projects/bachelor/5.5.png",
   imageAlt: "Abbildung 5.6 - Mögliche Umsetzung der Speicherung der Gedächtnispalaststruktur in Neo4j",
   caption: `
 Die dargestellten Knoten sind über semantische Beziehungen miteinander verknüpft, die räumliche Zugehörigkeit, Reihenfolgen und inhaltliche Verbindungen abbilden. Aus diesen Verknüpfungen entsteht ein zunehmend komplexes, jedoch strukturiertes Netzwerk, das die Organisation des Gedächtnispalasts formal repräsentiert.
@@ -750,37 +750,37 @@ parameterGroups: [
 
         media: [
           {
-            src: "/images/projects/Porcelain/materialfluessig02.jpg",
+            src: "/Images/projects/Porcelain/materialfluessig02.jpg",
             group: "höherer Wasseranteil",
             alt: "Flache Porzellanstränge, die sich auf einer Oberfläche zu einem zusammenhängenden Netzwerk verbinden",
             caption: "Die Stränge verlaufen nach dem Auftrag und verbinden sich zu einer flächigen Struktur mit weichen Übergängen. Einzelne Bahnen bleiben nur teilweise lesbar, während das Material unter Eigengewicht weiterfließt."
           },
           {
-            src: "/images/projects/Porcelain/materialfluessig01.jpg",
+            src: "/Images/projects/Porcelain/materialfluessig01.jpg",
             group: "höherer Wasseranteil",
             alt: "Mehrere weiche Porzellansegmente mit abgerundeten Formen und sichtbarer seitlicher Verformung",
             caption: "Die extrudierten Segmente behalten zunächst ihre Spur, setzen sich jedoch zu niedrigen, abgerundeten Formen ab. Das Material zeigt ein Nachgeben nach der Ablage und verändert seine Kontur weiter."
           },
           {
-            src: "/images/projects/Porcelain/Materialstabil02.jpg",
+            src: "/Images/projects/Porcelain/Materialstabil02.jpg",
             group: "mittlerer Wasseranteil",
             alt: "Lange Porzellanstränge, die sich in einer Form überlagern und Schlaufen bilden",
             caption: "Die Stränge sammeln sich im Formkörper, behalten weitgehend ihr Profil und bilden Schlaufen und Überlagerungen. In diesem Zustand reagiert das Material flexibel auf Ablage, Krümmung und Eigengewicht."
           },
           {
-            src: "/images/projects/Porcelain/materialstabil01.jpg",
+            src: "/Images/projects/Porcelain/materialstabil01.jpg",
             group: "mittlerer Wasseranteil",
             alt: "Porzellanstränge, die sich um die Wand eines Gefäßes legen und zwischen Punkten spannen",
             caption: "Die Stränge legen sich um die Gefäßform und bleiben als einzelne Linien erkennbar. Das Material folgt der Krümmung, ohne unmittelbar zu verlaufen, und bildet stellenweise gespannte Verbindungen zwischen Auflagepunkten."
           },
           {
-            src: "/images/projects/Porcelain/materialfest01.jpg",
+            src: "/Images/projects/Porcelain/materialfest01.jpg",
             group: "geringerer Wasseranteil",
             alt: "Porzellan wird aus einer Düse gepresst, wobei der Strang ungleichmäßig austritt und an der Oberfläche aufreißt",
             caption: "Der Strang tritt ungleichmäßig aus der Düse aus und zeigt eine raue, aufgerissene Oberfläche. Das Material lässt sich weiter extrudieren, reagiert aber weniger fließend und bildet Unterbrechungen in der Spur."
           },
           {
-            src: "/images/projects/Porcelain/materialfest02.jpg",
+            src: "/Images/projects/Porcelain/materialfest02.jpg",
             group: "geringerer Wasseranteil",
             alt: "Spiralförmig aufgebaute Porzellanstruktur mit mehreren Brüchen an den Kanten",
             caption: "Die gewickelte Struktur behält ihre Form, zeigt jedoch mehrere Bruchstellen entlang der belasteten Bereiche. Das Material bleibt formstabil, reagiert aber empfindlich auf Biegung und Spannung."
@@ -798,27 +798,27 @@ parameterGroups: [
 
         media: [
           {
-            src: "/images/projects/Porcelain/schablonen.jpg",
+            src: "/Images/projects/Porcelain/schablonen.jpg",
             alt: "Laserprofile für die Schablonen",
             caption: "Verschiedene Öffnungsgeometrien, die als Schablonen für die Extrusion verwendet wurden, darunter rechteckige, asymmetrische und profilierte Formen. Teilweise basieren sie auf Variationen einer Grundform."
           },
           {
-            src: "/images/projects/Porcelain/extruderprofil.jpg",
+            src: "/Images/projects/Porcelain/extruderprofil.jpg",
             alt: "Zwei unterschiedliche Profile treten gleichzeitig aus der Schablone aus",
             caption: "Zwei unterschiedliche Profile treten gleichzeitig aus einer Schablone aus. Die Stränge unterscheiden sich in Länge der extrudierten Masse und Oberflächenstruktur. Während der Strang mit dem runden Profil eine relativ geschlossene Oberfläche zeigt, wirkt das ovale Profil aufgerissen und fragmentiert."
           },
           {
-            src: "/images/projects/Porcelain/schabloneGlatt.jpg",
+            src: "/Images/projects/Porcelain/schabloneGlatt.jpg",
             alt: "Stapelung extrudierter Masse mit glattem Profil",
             caption: "Das flache Profil wird als durchgehender Strang extrudiert und legt sich in gleichmäßigen Bahnen übereinander. Die Form bleibt stabil, die Schichten sind klar nachvollziehbar und weitgehend glatt, mit vereinzelten kleinen Rissen."
           },
           {
-            src: "/images/projects/Porcelain/schabloneRillen.jpg",
+            src: "/Images/projects/Porcelain/schabloneRillen.jpg",
             alt: "Stapelung extrudierter Masse mit gerilltem Profil",
             caption: "Das Material wird mit feinen, durchgehenden Rillen extrudiert, die auch in Krümmungen erhalten bleiben. Die Stränge legen sich ebenfalls gleichmäßig übereinander, wirken teilweise aber spröde."
           },
           {
-            src: "/images/projects/Porcelain/schabloneRund.jpg",
+            src: "/Images/projects/Porcelain/schabloneRund.jpg",
             alt: "Stapelung extrudierter Masse mit rundem Profil",
             caption: "Mehrere runde Stränge werden gleichzeitig extrudiert und bleiben als einzelne Linien getrennt erkennbar. Sie legen sich nicht in geordneten Bahnen ab, sondern überlagern und verschlingen sich räumlich."
           }
@@ -842,27 +842,27 @@ parameterGroups: [
 
         media: [
           {
-            src: "/images/projects/Porcelain/bewegung01.jpeg",
+            src: "/Images/projects/Porcelain/bewegung01.jpeg",
             alt: "Extrusion innerhalb einer Schale mit sichtbarer Ablage der Stränge",
             caption: "Die Stränge treten kontinuierlich aus dem Extruder aus und werden direkt in die begrenzte Form abgelegt. Während der Bewegung lagern sie sich übereinander, weichen einander aus und verdichten sich in einzelnen Bereichen. Die Ablage verändert sich je nach Position im Raum und der vorhandenen Begrenzung.",
           },
           {
-            src: "/images/projects/Porcelain/bewegung001.JPG",
+            src: "/Images/projects/Porcelain/bewegung001.JPG",
             alt: "Vergleich zwischen gerader und bewegter Extrusion",
             caption: "Bei gleichbleibender Extrusionsmenge zeigen sich unterschiedliche Ablagen in Abhängigkeit von der Bewegung. Eine gleichmäßige, lineare Führung ergibt gestreckte Stränge, während bei langsamerer Bewegung Material lokal aufstaut, seitlich verdrängt wird und in Krümmungen sowie Überlagerungen ausweicht.",
           },
           {
-            src: "/images/projects/Porcelain/Bewegungskizze.jpg",
+            src: "/Images/projects/Porcelain/Bewegungskizze.jpg",
             alt: "Skizze einer Bewegungsabfolge und daraus resultierende Struktur",
             caption: "Wiederholte Bewegungsabfolgen werden als kontinuierliche Linien beschrieben. In der materiellen Ablage folgen die Stränge dieser Bewegungslogik, zeigen jedoch Abweichungen in ihrer Ausformung durch Eigengewicht und Materialverhalten.",
           },
           {
-            src: "/images/projects/Porcelain/Bewegung45.jpg",
+            src: "/Images/projects/Porcelain/Bewegung45.jpg",
             alt: "Vergleich zweier Extrusionen mit unterschiedlichem Abstand zur Form",
             caption: "Bei geringem Abstand lagern sich die Stränge dicht und lokal begrenzt ab. Bei größerem Abstand treten sie zunächst frei aus, fallen weiter und verteilen sich räumlich, wodurch offenere und weiter gestreute Strukturen entstehen.",
           },
           {
-            src: "/images/projects/Porcelain/BewegungAB.jpg",
+            src: "/Images/projects/Porcelain/BewegungAB.jpg",
             alt: "Vergleich zwischen zwei Ablagesituationen bei unterschiedlicher Ausrichtung",
             caption: "Bei konstanter Extrusion zeigen sich unterschiedliche Ablagen in Abhängigkeit von Ausrichtung und Bewegung. Wird der Extruder parallel zur Oberfläche gehalten, lagern sich die Stränge schichtweise und geordnet ab. Bei senkrechter Ausrichtung können sie nicht direkt aufliegen und weichen seitlich aus, wodurch Schlaufen und Überlagerungen entstehen.",
           }
@@ -890,32 +890,32 @@ parameterGroups: [
 
         media: [
           {
-            src: "/images/projects/Porcelain/bomse01.jpg",
+            src: "/Images/projects/Porcelain/bomse01.jpg",
             alt: "Extrudierte Stränge auf zwei vorbereiteten Bomsen vor dem Brand",
             caption: "Die Stränge werden auf zwei mit Trennmittel vorbereitete Bomsen extrudiert. Sie liegen teilweise auf den Oberflächen auf, überbrücken jedoch einzelne Bereiche und bilden freie Abschnitte zwischen den Kontaktflächen."
           },
           {
-            src: "/images/projects/Porcelain/bomse03.jpg",
+            src: "/Images/projects/Porcelain/bomse03.jpg",
             alt: "Extrusion auf einer vertikalen Bomse mit Überhängen",
             caption: "Die Extrusion erfolgt auf einer vertikal ausgerichteten Bomse. Die Stränge werden über die Kante hinaus abgelegt und bilden Überhänge, die entlang der Form nach unten verlaufen aber auh frei stehen."
           },
           {
-            src: "/images/projects/Porcelain/bomse04.JPG",
+            src: "/Images/projects/Porcelain/bomse04.JPG",
             alt: "Mehrere Bomsen als Stützstruktur für extrudierte Stränge",
             caption: "Mehrere Bomsen werden als Stützstruktur kombiniert. Die Stränge lagern sich auf den Kontaktflächen ab und verbinden einzelne Körper über kurze Abschnitte miteinander."
           },
           {
-            src: "/images/projects/Porcelain/bomse05.jpg",
+            src: "/Images/projects/Porcelain/bomse05.jpg",
             alt: "Extrusion innerhalb einer Brennkapsel mit zwei Bomsen",
             caption: "Die Extrusion erfolgt innerhalb einer Brennkapsel, die den Raum begrenzt. Zwei Bomsen sind darin positioniert und besetzen Teile dieses Volumens. Die Stränge lagern sich im verbleibenden Raum ab, wodurch die von den Bomsen eingenommenen Bereiche im extrudierten Körper ausgespart bleiben."
           },
           {
-            src: "/images/projects/Porcelain/bomse07.jpg",
+            src: "/Images/projects/Porcelain/bomse07.jpg",
             alt: "Vertikale Schlaufen extrudierter Stränge auf hoher Bomse",
             caption: "Die Stränge werden auf eine hohe Bomse extrudiert und bilden vertikal ausgerichtete Schlaufen. Einzelne Abschnitte hängen frei nach unten, während andere den Boden erreichen und sich dort ablegen."
           },
           {
-            src: "/images/projects/Porcelain/bomse06.jpg",
+            src: "/Images/projects/Porcelain/bomse06.jpg",
             alt: "Freie Abschnitte extrudierter Stränge ohne direkte Auflage",
             caption: "Die Stränge werden zwischen mehreren Punkten abgelegt und bilden Abschnitte ohne direkte Auflage. Einige dieser Bereiche bleiben frei gespannt, ohne unmittelbar abzusacken."
           }
@@ -972,7 +972,7 @@ Die folgenden Beispiele zeigen unterschiedliche Ansätze, in denen Wiederholung,
     {
       title: "Wiederholung und Variation",
       image: {
-        src: "/images/projects/Porcelain/quadratisch.jpg",
+        src: "/Images/projects/Porcelain/quadratisch.jpg",
         alt: "Mehrere ähnliche extrudierte Porzellanobjekte mit variierenden Ausprägungen",
       },
 
@@ -993,20 +993,20 @@ Es entsteht eine Reihe von Formen, die sich als zusammengehörig lesen lassen, o
 
   images: [
     {
-      src: "/images/projects/Porcelain/Verbindung01.jpg",
+      src: "/Images/projects/Porcelain/Verbindung01.jpg",
       alt: "Lose extrudierte Porzellanstränge, einzeln liegend",
     },
     {
-      src: "/images/projects/Porcelain/einzel01.jpg",
+      src: "/Images/projects/Porcelain/einzel01.jpg",
       alt: "Zwei Stränge werden manuell miteinander verbunden",
     },
     
     {
-      src: "/images/projects/Porcelain/verbindung03.jpg",
+      src: "/Images/projects/Porcelain/verbindung03.jpg",
       alt: "Mehrere Stränge bilden ein dichtes, zusammenhängendes Gefüge",
     },
     {
-      src: "/images/projects/Porcelain/verbindung02.jpg",
+      src: "/Images/projects/Porcelain/verbindung02.jpg",
       alt: "Vertikale Struktur aus mehreren miteinander verbundenen Strängen",
     },
   ],
@@ -1027,21 +1027,21 @@ Es entsteht eine Reihe von Formen, die sich als zusammengehörig lesen lassen, o
 
       images: [
     {
-      src: "/images/projects/Porcelain/komplex01.png",
+      src: "/Images/projects/Porcelain/komplex01.png",
       alt: "Lose extrudierte Porzellanstränge, einzeln liegend",
     },
     {
-      src: "/images/projects/Porcelain/komplex02.png",
+      src: "/Images/projects/Porcelain/komplex02.png",
       alt: "Zwei Stränge werden manuell miteinander verbunden",
     },
     
     
     {
-      src: "/images/projects/Porcelain/kompakt7.jpg",
+      src: "/Images/projects/Porcelain/kompakt7.jpg",
       alt: "Vertikale Struktur aus mehreren miteinander verbundenen Strängen",
     },
     {
-      src: "/images/projects/Porcelain/kompakt.jpg",
+      src: "/Images/projects/Porcelain/kompakt.jpg",
       alt: "Mehrere Stränge bilden ein dichtes, zusammenhängendes Gefüge",
     },
   ],
@@ -1143,25 +1143,25 @@ Statt ein fertiges Assistenzprodukt zu entwickeln, wurde das Projekt zunehmend z
 
 images: [
     {
-      src: "/images/projects/additional/ChatGPT Image 4. Mai 2026, 00_53_40.png",
+      src: "/Images/projects/additional/ChatGPT Image 4. Mai 2026, 00_53_40.png",
       alt: "Research material on human echolocation and click sonar",
       caption:
   "Speculative visualization of a wearable interface that translates human echolocation into navigational feedback. AI-assisted concept image."
     },
     {
-      src: "/images/projects/additional/soundproto.png",
+      src: "/Images/projects/additional/soundproto.png",
       alt: "Sketches of wearable sound and sensor concepts",
       caption:
   "Early body-placement experiments testing where acoustic feedback could be perceived most intuitively — including finger, wrist and forehead placements."
     },
     {
-      src: "/images/projects/additional/soundpiezo.png",
+      src: "/Images/projects/additional/soundpiezo.png",
       alt: "Sketches of wearable sound and sensor concepts",
       caption:
   "Hands-on experiments with piezo transducers and resonating materials to explore how directional sound could be amplified and spatialized."
     },
     {
-      src: "/images/projects/additional/soundscience.png",
+      src: "/Images/projects/additional/soundscience.png",
       alt: "Wearable prototype experiments for sound-based perception",
       caption:
   "Acoustic analysis of human echolocation clicks used as research reference for understanding frequency patterns and reflected signals. Source: Thaler et al., PLOS Computational Biology (2017)"
@@ -1187,35 +1187,35 @@ Das Projekt versteht Schuhsohlen weniger als fertiges Produkt, sondern als Schni
 
   images: [
     {
-      src: "/images/projects/additional/Waage.jpg",
+      src: "/Images/projects/additional/Waage.jpg",
       alt: "Visualisierung von Schuhsohlenabrieb",
       caption:
         "100 Gramm konventionelles Sohlenmaterial. Ungefähr die Menge, die eine Person pro Jahr durchschnittlich durch Schuhabrieb verliert und meist unbemerkt in Umweltkreisläufe abgibt.",
     },
 
     {
-      src: "/images/projects/additional/fläschchen.jpg",
+      src: "/Images/projects/additional/fläschchen.jpg",
       alt: "Materialkomponenten des Biokunststoffs",
       caption:
         "Materialrezept des finalen Biokunststoffs: Essig, Zucker, Dextrin und ein variabler Feststoff - hier Kaffeesatz.",
     },
 
     {
-      src: "/images/projects/additional/Material.jpg",
+      src: "/Images/projects/additional/Material.jpg",
       alt: "Materialtests",
       caption:
         "Materialtests zur Untersuchung von Flexibilität, Abriebverhalten und Bearbeitbarkeit des entwickelten Sohlenmaterials.",
     },
 
     {
-      src: "/images/projects/additional/sohlenform.jpg",
+      src: "/Images/projects/additional/sohlenform.jpg",
       alt: "Form zur Sohlenherstellung",
       caption:
         "Offene Produktionsform zur eigenständigen Herstellung, Reparatur und Reproduktion individuell angepasster Sohlen.",
     },
 
     {
-      src: "/images/projects/additional/Sandale.jpg",
+      src: "/Images/projects/additional/Sandale.jpg",
       alt: "Finaler Sandalenprototyp",
       caption:
         "Finaler Prototyp, der die Materialexperimente in ein tragbares Artefakt übersetzt.",

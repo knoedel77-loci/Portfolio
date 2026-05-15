@@ -29,13 +29,13 @@ const projects: Project[] = [
       question:
         "How can AI be integrated directly into a live coding workflow to support real-time musical performance without removing performer control?",
       motivation: `
-          Live coding enables performers to create music in real time by writing and modifying code. 
-          In contrast, many AI-based music systems generate fixed outputs that are not directly editable and therefore limit control over the result.
+          Live Coding ermöglicht es Performer:innen, Musik in Echtzeit durch das Schreiben und Verändern von Code zu erzeugen. Während der Performance können dabei beispielsweise Samples, Instrumente, Rhythmen und visuelle Elemente direkt gesteuert und angepasst werden.
 
-          This project explores how AI can be integrated into a live coding workflow, allowing performers to receive context-aware code suggestions directly within the environment.
+Gleichzeitig gibt es bereits verschiedene KI-basierte Musiksysteme. Viele dieser Systeme erzeugen jedoch vollständige Outputs - beispielsweise ganze Songs oder Musiksequenzen - auf die Nutzer:innen im Nachhinein nur noch begrenzt Einfluss nehmen können.
 
-          The goal is to support improvisation through AI assistance while preserving full creative control over the generated material.
-          `,
+Dieses Projekt untersucht, wie KI in einen Live-Coding-Workflow integriert werden kann, sodass Performer*innen kontextbezogene Code-Vorschläge direkt innerhalb ihrer Arbeitsumgebung erhalten.
+
+Ziel ist es, Improvisation durch KI-Unterstützung zu fördern und gleichzeitig die kreative Kontrolle über das generierte Material vollständig zu erhalten.`,
     },
 
     summaryCard: {
@@ -47,34 +47,33 @@ const projects: Project[] = [
 
     overview: {
       context: `
-        Live coding is a form of musical performance in which sound is created by writing and modifying code in real time. 
-        Music emerges through a continuous process where composition, improvisation and execution converge.
+        Live Coding ist eine Form musikalischer Performance, bei der Klang durch das Schreiben und Verändern von Code in Echtzeit erzeugt wird.
 
-        In this context, code functions simultaneously as tool, material and expressive medium, forming the basis for further system extensions.
-        `,
+        Musik entsteht dabei in einem kontinuierlichen Prozess, in dem Komposition, Improvisation und Ausführung zusammenlaufen.
+
+        In diesem Kontext fungiert Code gleichzeitig als Werkzeug, Material und Ausdrucksmedium.`,
       method:
-       `The system was developed as a custom package for the Pulsar editor, embedding AI-assisted code generation directly into the live coding environment.
+       `Das System wurde als eigenes Package für den Pulsar-Editor entwickelt und integriert KI-gestützte Codegenerierung direkt in die Live-Coding-Umgebung.
 
-        Development focused on integrating API communication, designing a reusable prompt structure and incorporating domain-specific reference material to guide the generation process.
+      Der Entwicklungsprozess konzentrierte sich auf die Integration der API-Kommunikation, die Gestaltung einer wiederverwendbaren Prompt-Struktur sowie die Einbindung domänenspezifischer Referenzmaterialien zur Steuerung des Generierungsprozesses.
 
-        The setup was iteratively tested and refined in live coding scenarios, ensuring stability, usability and responsiveness within a performance context.
-        `,
+      Das Setup wurde in Live-Coding-Szenarien iterativ getestet und weiterentwickelt, um Stabilität, Nutzbarkeit und Reaktionsfähigkeit im Performance-Kontext sicherzustellen.
+      `,
 outcome: `
-        The project resulted in a functional system that enables performers to generate and integrate TidalCycles code directly within the live coding environment.
+        Das Projekt führte zur Entwicklung eines funktionsfähigen Systems, das es Performer:innen ermöglicht, TidalCycles-Code direkt innerhalb der Live-Coding-Umgebung zu generieren und zu integrieren.
 
-        By returning editable code instead of fixed outputs, the system supports a more fluid and improvisational workflow while maintaining full control over the generated material.
+        Durch die Rückgabe bearbeitbaren Codes anstelle fester Outputs unterstützt das System einen flüssigeren und improvisationsorientierten Workflow, während die volle Kontrolle über das generierte Material erhalten bleibt.
 
-        The project demonstrates how AI can function as a collaborative component within a coding-based performance, rather than as a standalone generative tool.
+        Das Projekt zeigt, wie KI innerhalb einer codebasierten Performance als kollaborative Komponente funktionieren kann, anstatt als eigenständiges generatives Tool.
         `, 
       system: `
-        The system operates as a real-time feedback loop between performer and AI.
+        Das System funktioniert als Echtzeit-Feedbackschleife zwischen Performer:in und KI.
 
-        Code and prompts are written directly within the editor and sent to the model, including the current context and structured guidance. 
-        The generated output is returned as executable code and reinserted into the live coding environment.
+        Code und Prompts werden direkt im Editor geschrieben und zusammen mit dem aktuellen Kontext sowie strukturierten Anweisungen an das Modell gesendet. Der generierte Output wird anschließend als ausführbarer Code direkt in die Live-Coding-Umgebung zurückgeführt.
 
-        Because the result remains fully editable, it can be adapted, extended or discarded at any moment during the performance.
+        Da das Ergebnis vollständig bearbeitbar bleibt, kann es während der Performance jederzeit angepasst, erweitert oder verworfen werden.
         `,
-media: {
+        media: {
         type: "image",
         src: "/Images/projects/API.png",
         alt: "AI live coding workflow diagram",
@@ -87,33 +86,38 @@ media: {
   {
     title: "Understanding the live coding environment",
     text: `
-      Establishing a stable live coding workflow required first understanding how musical structure, timing and syntax operate within TidalCycles and SuperCollider.
-
-      Rather than focusing on AI from the beginning, this phase concentrated on how code behaves as a performative medium, where every change directly affects sound in real time. This foundation defined the constraints for any later system integration.
-      `,
+      Die Entwicklung eines stabilen Live-Coding-Workflows erforderte zunächst ein Verständnis dafür, wie musikalische Struktur, Timing und Syntax innerhalb von TidalCycles und SuperCollider funktionieren.
+      Anstatt sich von Beginn an auf KI zu konzentrieren, lag der Fokus in dieser Phase darauf zu verstehen, wie Code als performatives Medium funktioniert, bei dem jede Veränderung den Klang in Echtzeit direkt beeinflusst.
+      Diese Grundlage definierte die Rahmenbedingungen für jede spätere Systemintegration.`,
   },
   {
     title: "Evaluating external AI support",
     text: `
-      Early experiments with external AI tools showed that generating code suggestions can support musical exploration, but only in a disconnected way.
+      Frühe Experimente mit externen KI-Tools zeigten, dass die Generierung von Code-Vorschlägen musikalische Exploration unterstützen kann - allerdings nur auf eine losgelöste Weise.
 
-      Moving between tools introduced friction: generated outputs had to be manually transferred, interpreted and adjusted before they became usable. This made it clear that meaningful support requires integration directly within the coding environment.
-      `,
+    Der Wechsel zwischen verschiedenen Tools erzeugte Reibung: Generierte Outputs mussten zunächst manuell übertragen, interpretiert und angepasst werden, bevor sie nutzbar waren.
+
+    Dadurch wurde deutlich, dass sinnvolle Unterstützung eine direkte Integration innerhalb der Coding-Umgebung erfordert.
+    `,
   },
   {
     title: "Embedding the AI model into the editor",
     text: `
-      Integrating the AI model into Pulsar involved establishing API communication, configuring the environment and enabling prompt execution directly from within the editor.
+      Die Integration des KI-Modells in Pulsar umfasste die Einrichtung der API-Kommunikation, die Konfiguration der Umgebung sowie die Möglichkeit, Prompts direkt aus dem Editor heraus auszuführen.
 
-      At this stage, prompts could be sent and responses returned, but the interaction remained cumbersome. Outputs often included unnecessary text, and usable code still required manual extraction, limiting real-time applicability.
+      In dieser Phase konnten bereits Prompts gesendet und Antworten zurückgegeben werden, die Interaktion blieb jedoch umständlich.
+
+      Die Outputs enthielten häufig unnötigen Text, und nutzbarer Code musste weiterhin manuell extrahiert werden, was die Anwendbarkeit in Echtzeit einschränkte.
       `,
   },
   {
     title: "Designing context and interaction",
     text: `
-      The system became usable only after restructuring how information is sent to the model.
+      Das System wurde erst nutzbar, nachdem die Art und Weise, wie Informationen an das Modell übermittelt werden, neu strukturiert wurde.
 
-      A reusable parent prompt and additional reference material were introduced to provide consistent context, reducing repetitive input and improving output relevance. This shifted the system from a technical integration toward a controllable interaction model, where suggestions become part of an ongoing coding process rather than isolated results.
+      Ein wiederverwendbarer Parent-Prompt sowie zusätzliches Referenzmaterial wurden eingeführt, um konsistenten Kontext bereitzustellen, wiederholte Eingaben zu reduzieren und die Relevanz der Outputs zu verbessern.
+
+      Dadurch entwickelte sich das System von einer rein technischen Integration hin zu einem kontrollierbaren Interaktionsmodell, bei dem Vorschläge Teil eines fortlaufenden Coding-Prozesses werden, anstatt isolierte Ergebnisse zu bleiben.
       `,
   },
   
@@ -123,7 +127,7 @@ interactionSection: {
   eyebrow: "Final Interaction Model",
   title: "Designing AI as an interruptible part of the live coding workflow",
   description:
-    "The final interaction model was designed around a core principle: AI should accelerate live coding without replacing performer agency. Instead of producing autonomous musical output, the system returns editable code that can be reviewed, modified, ignored, or manually activated by the performer.",
+    "Das finale Interaktionsmodell basiert auf einem zentralen Prinzip: KI soll den Live-Coding-Prozess unterstützen, ohne die Handlungsfähigkeit der Performer:innen zu ersetzen. Während der Performance entscheiden Performer*innen selbst, ob und wann sie eine Anfrage an die KI stellen möchten – beispielsweise zur Unterstützung, Inspiration oder für experimentelle Impulse. Die Anfrage wird direkt innerhalb der Live-Coding-Umgebung ausgelöst, woraufhin die KI bearbeitbaren Code zurückgibt. Dieser kann anschließend überprüft, angepasst, erweitert oder verworfen werden.",
 
   sketches: [
     {
@@ -247,21 +251,23 @@ interactionSection: {
 
    reflection: {
   summary: `
-      Editable output fundamentally changes how generative systems can be used in live coding.
+      Das Projekt hat gezeigt, dass die Integration von KI in Live Coding sowohl technische als auch interaktive Herausforderungen mit sich bringt. Die Entwicklung des Systems erforderte nicht nur die technische Einbindung des Modells in den Editor, sondern auch die Gestaltung einer Interaktion, die innerhalb einer improvisierten Echtzeit-Performance sinnvoll funktioniert.
 
-      Instead of producing fixed results, the AI model generates code that remains visible, interpretable and modifiable. This allows suggestions to be integrated selectively, maintaining continuity within the performance rather than interrupting it.
+Eine zentrale Spannung liegt dabei zwischen Unterstützung und Unterbrechung. Auch wenn die KI nur auf explizite Anfrage reagiert, müssen Performer:innen während einer laufenden Performance bewusst entscheiden, ob eine Interaktion in diesem Moment sinnvoll ist. Dadurch entsteht die Frage, wie viel zusätzliche Interaktion ein performativer Flow zulässt, ohne unterbrochen zu werden.
 
-      At the same time, the project exposes current limitations. Generated responses are often verbose, inconsistently precise and highly dependent on prompt structure. Without carefully designed context, outputs become unreliable and difficult to use in time-sensitive situations.
+Gleichzeitig eröffnet das System neue Fragen in Bezug auf Autorschaft und Kollaboration. Wenn musikalische oder visuelle Elemente gemeinsam mit einem generativen System entstehen, stellt sich die Frage, wie sich Rollen zwischen Performer:in, Werkzeug und kollaborativem System verändern. Wann bleibt das Ergebnis die eigene Arbeit und ab welchem Punkt verändert sich die Form von Autorschaft?
 
-      The key insight is that the usefulness of AI in this setting does not depend on generation quality alone, but on how well it can be embedded into an existing workflow while remaining interruptible and transparent.
-      `,
-  nextStep: `
-      Further development should focus on making the interaction more immediate and predictable within performance.
-      This includes reducing unnecessary output, improving how generated code is inserted into the editor, and strengthening the context layer to produce more concise and reliable responses.
-      In a next iteration, the system could be extended through a more structured dataset or adapted model behavior, enabling outputs that align more closely with the constraints and expectations of real-time live coding.
-      `,
-},
-  },
+Da sowohl TidalCycles als auch Hydra auf Code basieren, zeigt das Projekt außerdem Potenzial über Musik hinaus und eröffnet die Möglichkeit, zukünftige audiovisuelle Performances stärker gemeinsam zu gestalten.
+
+Das Projekt versteht sich daher als offenes Experiment und als Ausgangspunkt für weitere Formen kollaborativer Mensch-KI-Performance.
+`,
+nextStep: `
+      Eine zukünftige Weiterentwicklung könnte sich darauf konzentrieren, das System stärker personalisierbar zu machen. Da die Interaktion aktuell über einen fest definierten Parent Prompt gesteuert wird, könnten Performer:innen zukünftig eigene Regeln, Präferenzen und musikalische Strukturen festlegen, um das System stärker an ihren individuellen Stil und ihre Arbeitsweise anzupassen. Dadurch könnte aus einem allgemeinen Tool eine individuellere Form der Kollaboration entstehen.
+
+Darüber hinaus könnte die Interaktion innerhalb von Live-Performances durch unterschiedliche vordefinierte Shortcuts erweitert werden. Je nach Situation könnten verschiedene Tastenkombinationen unterschiedliche Arten von Anfragen auslösen - beispielsweise auf Basis eines geschriebenen Prompts oder ausschließlich durch den aktuellen Kontextcode - und so eine schnellere Kommunikation innerhalb der Performance ermöglichen.
+
+Eine weitere Entwicklungsrichtung liegt in der Verbesserung der Modellqualität. Da generierte Outputs teilweise noch unpräzise oder unbrauchbar waren, könnte ein stärker spezialisiertes oder fine-tuned Modell zukünftig verlässlichere Ergebnisse erzeugen, die besser auf spezifische musikalische und visuelle Live-Coding-Umgebungen abgestimmt sind.`},
+        },
 
  {
   slug: "memory-palace-ba",
@@ -1078,7 +1084,7 @@ Langfristig könnte der Ansatz auch auf größere Material-, Produktions- oder r
       type: "image",
       src: "/Images/projects/Mindmap.png",
       alt: "Collage verschiedener kleiner Projekte",
-     caption: `Neben meinen Hauptprojekten entstanden im Studium auch zahlreiche klassische Produktdesignarbeiten — von Produktentwicklung, CAD, technischen Zeichnungen, Rendering, Modellbau, Prototyping und Fotografie bis hin zu räumlichen Konzepten, Materialexperimenten und technischen Interventionen.
+     caption: `Neben meinen Hauptprojekten entstanden im Studium auch zahlreiche klassische Produktdesignarbeiten - von Produktentwicklung, CAD, technischen Zeichnungen, Rendering, Modellbau, Prototyping und Fotografie bis hin zu räumlichen Konzepten, Materialexperimenten und technischen Interventionen.
 
 Die Projekte reichten von medizinischen und alltagsbezogenen Produktsystemen über Wohnkonzepte und Bewässerungssysteme bis hin zu experimentellen Arbeiten zu Material, Wahrnehmung und Bewegung.
 

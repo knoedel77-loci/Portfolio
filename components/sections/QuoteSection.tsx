@@ -6,7 +6,7 @@ export default function HomeIntroSection() {
    <section className="px-6 pt-6 pb-28 md:pt-8 md:pb-36">
       <div className="mx-auto grid max-w-5xl items-center gap-10 md:grid-cols-[0.45fr_1fr] md:gap-16">
         <div className="justify-self-start">
-          <div className="overflow-hidden rounded-1xl">
+          <div className="overflow-hidden rounded-1xl grayscale">
             <Image
               src="/Images/me/Profilbild.JPG"
               alt="Portrait von Julia Knötzele"

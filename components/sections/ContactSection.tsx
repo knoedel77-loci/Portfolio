@@ -122,7 +122,7 @@ export default function ContactSection() {
       <div className="relative z-10 mx-auto max-w-3xl text-center">
         <p className="font-heading text-xl leading-relaxed md:text-2xl">
           Wenn dich etwas an meinen Arbeiten interessiert, du Fragen hast oder
-          eigene Gedanken dazu teilen möchtest - melde dich gerne.
+          mir deine Gedanken dazu teilen möchtest - melde dich gerne.
         </p>
 
         <p className="mt-6 text-sm leading-relaxed text-white/55 md:text-base">
@@ -132,13 +132,10 @@ export default function ContactSection() {
         <div className="mt-10 flex flex-col items-center gap-4 text-sm uppercase tracking-[0.12em] md:flex-row md:justify-center md:gap-8">
           <a
   href="mailto:jul.knoetzele@gmail.com?subject=Kontakt%20%C3%BCber%20Portfolio"
-  target="_blank"
-  rel="noopener noreferrer"
   className="relative z-20 text-white/60 transition hover:text-accent"
 >
   Mail
 </a>
-
           <Link
   href="https://www.linkedin.com/in/julia-kn%C3%B6tzele-186333326/"
   target="_blank"

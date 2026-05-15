@@ -419,7 +419,7 @@ Zentrale Rolle übernimmt ein Sprachmodell, das Nutzereingaben interpretiert und
 
 Die Architektur bildet kein lineares Ablaufschema, sondern ein adaptives Zusammenspiel aus Interaktion, Steuerung und Gedächtnisstruktur, das sich kontinuierlich an den Verlauf des Lernprozesses anpasst.
 `,
-    image: "/Images/projects/bachelor/5.1.png",
+    image: "/Images/projects/Bachelor/5.1.png",
     imageAlt: "Abbildung 5.1 - Überblick über die technische Systemarchitektur",
     caption: `Die Abbildung zeigt die grundlegende Systemarchitektur: Nutzereingaben werden vom Sprachmodell interpretiert und über eine zwischengelagerte Steuerlogik in passende Modi, Werkzeuge und Speicherbereiche überführt. Abhängig vom Kontext werden spezialisierte Module aktiviert und unterschiedliche Gedächtnisformen angesprochen.`,
   },
@@ -434,7 +434,7 @@ Während der Navigationsmodus den Zugriff auf gespeicherte Gedächtnisstrukturen
 
 Die Moduslogik bildet damit die zentrale Steuerungsebene des Systems und ermöglicht eine situative Anpassung von Interaktion, Verarbeitung und Zugriff auf unterschiedliche Speicherformen.
 `,   caption: `Die Abbildung zeigt den Ablauf eines Moduswechsels im System. Ausgehend von einer Nutzereingabe wird der Intent durch das Sprachmodell analysiert und geprüft, ob ein Wechsel des Interaktionsmodus erforderlich ist. Wird ein Wechsel erkannt, übernimmt eine externe Steuerlogik die Aktualisierung der Systemkonfiguration, lädt entsprechende Modusprompts sowie zugehörige Tools und Datenzugriffe und übergibt diese an das Sprachmodell. Die ursprüngliche Anfrage wird anschließend auf Basis der neuen Konfiguration verarbeitet.`,
-    image: "/Images/projects/bachelor/5.3.png",
+    image: "/Images/projects/Bachelor/5.3.png",
     imageAlt: "Abbildung 5.2 - Ablaufsteuerung bei einem Moduswechsel",
   },
 
@@ -453,7 +453,7 @@ Das Profil wirkt damit nicht als passiver Speicher, sondern als verhaltenssteuer
 Die Abbildung zeigt die mehrschichtige Struktur des Nutzerprofils sowie dessen zyklische Weiterentwicklung. 
 Statische, dynamische und temporäre Informationen werden getrennt erfasst und kontextabhängig in die Systemsteuerung integriert.  Anpassungen des dynamischen Profils erfolgen ausschließlich über wiederkehrende Musteranalysen und werden erst nach dialogischer Rückkopplung und Zustimmung übernommen.
 `,
-    image: "/Images/projects/bachelor/5.2.png",
+    image: "/Images/projects/Bachelor/5.2.png",
     imageAlt: "Abbildung 5.4 - Reflexionsprozess zur Profilanpassung",
   },
 
@@ -471,7 +471,7 @@ Der Modus macht damit sichtbar, wie adaptive Unterstützung, Rückkopplung und N
     caption: `
 Die Abbildung zeigt die dialogisch-adaptive Feedbackschleife des Vividness-Modus.  Dargestellt ist der Prozess zwischen Szeneingabe, Analyse, Rückmeldung und Anpassung, einschließlich der beteiligten Systemkomponenten.  Hervorgehoben sind Entscheidungswege, Rückfragen sowie die Bedingungen für eine mögliche Speicherung.
 `,
-    image: "/Images/projects/bachelor/5.4.png",
+    image: "/Images/projects/Bachelor/5.4.png",
     imageAlt: "Abbildung 5.5 - Dialogisch-adaptive Feedbackschleife des Vividness-Modus",
   },
 
@@ -482,7 +482,7 @@ Der Gedächtnispalast basiert auf der Verknüpfung räumlicher, bildhafter und s
 
 Diese Modellierung überträgt die Funktionsweise des Gedächtnispalasts in eine formale Struktur, in der Beziehungen explizit gespeichert und verarbeitet werden können. Die zugrunde liegende Netzwerkstruktur bleibt für Nutzer:innen unsichtbar und dient ausschließlich der internen Organisation, Analyse und Navigation innerhalb des Systems.
 `,
-  image: "/Images/projects/bachelor/5.5.png",
+  image: "/Images/projects/Bachelor/5.5.png",
   imageAlt: "Abbildung 5.6 - Mögliche Umsetzung der Speicherung der Gedächtnispalaststruktur in Neo4j",
   caption: `
 Die dargestellten Knoten sind über semantische Beziehungen miteinander verknüpft, die räumliche Zugehörigkeit, Reihenfolgen und inhaltliche Verbindungen abbilden. Aus diesen Verknüpfungen entsteht ein zunehmend komplexes, jedoch strukturiertes Netzwerk, das die Organisation des Gedächtnispalasts formal repräsentiert.
@@ -803,22 +803,22 @@ parameterGroups: [
             caption: "Verschiedene Öffnungsgeometrien, die als Schablonen für die Extrusion verwendet wurden, darunter rechteckige, asymmetrische und profilierte Formen. Teilweise basieren sie auf Variationen einer Grundform."
           },
           {
-            src: "/Images/projects/Porcelain/extruderprofil.jpg",
+            src: "/Images/projects/Porcelain/extruderprofil.JPG",
             alt: "Zwei unterschiedliche Profile treten gleichzeitig aus der Schablone aus",
             caption: "Zwei unterschiedliche Profile treten gleichzeitig aus einer Schablone aus. Die Stränge unterscheiden sich in Länge der extrudierten Masse und Oberflächenstruktur. Während der Strang mit dem runden Profil eine relativ geschlossene Oberfläche zeigt, wirkt das ovale Profil aufgerissen und fragmentiert."
           },
           {
-            src: "/Images/projects/Porcelain/schabloneGlatt.jpg",
+            src: "/Images/projects/Porcelain/schabloneGlatt.JPG",
             alt: "Stapelung extrudierter Masse mit glattem Profil",
             caption: "Das flache Profil wird als durchgehender Strang extrudiert und legt sich in gleichmäßigen Bahnen übereinander. Die Form bleibt stabil, die Schichten sind klar nachvollziehbar und weitgehend glatt, mit vereinzelten kleinen Rissen."
           },
           {
-            src: "/Images/projects/Porcelain/schabloneRillen.jpg",
+            src: "/Images/projects/Porcelain/schabloneRillen.JPG",
             alt: "Stapelung extrudierter Masse mit gerilltem Profil",
             caption: "Das Material wird mit feinen, durchgehenden Rillen extrudiert, die auch in Krümmungen erhalten bleiben. Die Stränge legen sich ebenfalls gleichmäßig übereinander, wirken teilweise aber spröde."
           },
           {
-            src: "/Images/projects/Porcelain/schabloneRund.jpg",
+            src: "/Images/projects/Porcelain/schabloneRund.JPG",
             alt: "Stapelung extrudierter Masse mit rundem Profil",
             caption: "Mehrere runde Stränge werden gleichzeitig extrudiert und bleiben als einzelne Linien getrennt erkennbar. Sie legen sich nicht in geordneten Bahnen ab, sondern überlagern und verschlingen sich räumlich."
           }
@@ -847,7 +847,7 @@ parameterGroups: [
             caption: "Die Stränge treten kontinuierlich aus dem Extruder aus und werden direkt in die begrenzte Form abgelegt. Während der Bewegung lagern sie sich übereinander, weichen einander aus und verdichten sich in einzelnen Bereichen. Die Ablage verändert sich je nach Position im Raum und der vorhandenen Begrenzung.",
           },
           {
-            src: "/Images/projects/Porcelain/bewegung001.JPG",
+            src: "/Images/projects/Porcelain/bewegung001.jpg",
             alt: "Vergleich zwischen gerader und bewegter Extrusion",
             caption: "Bei gleichbleibender Extrusionsmenge zeigen sich unterschiedliche Ablagen in Abhängigkeit von der Bewegung. Eine gleichmäßige, lineare Führung ergibt gestreckte Stränge, während bei langsamerer Bewegung Material lokal aufstaut, seitlich verdrängt wird und in Krümmungen sowie Überlagerungen ausweicht.",
           },
@@ -997,12 +997,12 @@ Es entsteht eine Reihe von Formen, die sich als zusammengehörig lesen lassen, o
       alt: "Lose extrudierte Porzellanstränge, einzeln liegend",
     },
     {
-      src: "/Images/projects/Porcelain/einzel01.jpg",
+      src: "/Images/projects/Porcelain/einzel01.JPG",
       alt: "Zwei Stränge werden manuell miteinander verbunden",
     },
     
     {
-      src: "/Images/projects/Porcelain/verbindung03.jpg",
+      src: "/Images/projects/Porcelain/verbindung03.JPG",
       alt: "Mehrere Stränge bilden ein dichtes, zusammenhängendes Gefüge",
     },
     {
@@ -1037,11 +1037,11 @@ Es entsteht eine Reihe von Formen, die sich als zusammengehörig lesen lassen, o
     
     
     {
-      src: "/Images/projects/Porcelain/kompakt7.jpg",
+      src: "/Images/projects/Porcelain/kompakt7.JPG",
       alt: "Vertikale Struktur aus mehreren miteinander verbundenen Strängen",
     },
     {
-      src: "/Images/projects/Porcelain/kompakt.jpg",
+      src: "/Images/projects/Porcelain/kompakt.JPG",
       alt: "Mehrere Stränge bilden ein dichtes, zusammenhängendes Gefüge",
     },
   ],

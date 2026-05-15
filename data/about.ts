@@ -115,14 +115,13 @@ work: {
 
 
   experiments: {
-  eyebrow: "Current Project",
+  eyebrow: "Currently exploring",
 
-  title:
-    "Aktuell entwickle ich ein langfristiges Permakultursystem.",
+title:
+  "Aktuell entwickle ich ein langfristiges Permakultursystem.",
 
-  intro:
-    "Neben meinen Hochschulprojekten arbeite ich aktuell an einem selbst initiierten Permakulturprojekt. Mich interessiert daran besonders, wie durch Beobachtung, Planung und gezielte Eingriffe ein System entstehen kann, das sich langfristig an lokale Bedingungen anpasst und zunehmend selbst tragfähig wird.",
-
+intro:
+  "Neben meinen Hochschulprojekten arbeite ich an einem selbst initiierten Permakulturprojekt. Mich interessiert daran besonders, wie durch Beobachtung, Planung und gezielte Eingriffe ein System entstehen kann, das sich langfristig an lokale Bedingungen anpasst und zunehmend selbst tragfähig wird.",
   items: [
     {
       title: "Beobachten bevor man gestaltet",

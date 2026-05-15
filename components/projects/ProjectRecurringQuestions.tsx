@@ -236,13 +236,7 @@ export default function ProjectRecurringQuestions({ project }: Props) {
                       Previous
                     </p>
 
-                    <p className="text-sm text-white/75">
-                      {
-                        items[
-                          activeIndex === 0 ? items.length - 1 : activeIndex - 1
-                        ].title
-                      }
-                    </p>
+                    
                   </button>
 
                   <button
@@ -254,13 +248,7 @@ export default function ProjectRecurringQuestions({ project }: Props) {
                       Next
                     </p>
 
-                    <p className="text-sm text-white/75">
-                      {
-                        items[
-                          activeIndex === items.length - 1 ? 0 : activeIndex + 1
-                        ].title
-                      }
-                    </p>
+                    
                   </button>
                 </div>
               </div>

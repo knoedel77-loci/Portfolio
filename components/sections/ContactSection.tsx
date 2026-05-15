@@ -17,29 +17,32 @@ type Cursor = {
 
 export default function ContactSection() {
   const sectionRef = useRef<HTMLElement>(null);
+
   const [cursor, setCursor] = useState<Cursor>({
     x: 0,
     y: 0,
     active: false,
   });
 
-  const points = useMemo<Point[]>(
-  () => [
-    { id: 1, x: 18, y: 28 },
-    { id: 2, x: 34, y: 68 },
-    { id: 3, x: 52, y: 36 },
-    { id: 4, x: 68, y: 72 },
-    { id: 5, x: 82, y: 30 },
-    { id: 6, x: 76, y: 56 },
+  const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-    // neue Punkte
-    { id: 7, x: 12, y: 58 },
-    { id: 8, x: 24, y: 78 },
-    { id: 9, x: 44, y: 18 },
-    { id: 10, x: 60, y: 84 },
-    { id: 11, x: 88, y: 64 },
-    { id: 12, x: 92, y: 42 },
-  ],
+  const points = useMemo<Point[]>(
+    () => [
+      { id: 1, x: 18, y: 28 },
+      { id: 2, x: 34, y: 68 },
+      { id: 3, x: 52, y: 36 },
+      { id: 4, x: 68, y: 72 },
+      { id: 5, x: 82, y: 30 },
+      { id: 6, x: 76, y: 56 },
+      { id: 7, x: 12, y: 58 },
+      { id: 8, x: 24, y: 78 },
+      { id: 9, x: 44, y: 18 },
+      { id: 10, x: 60, y: 84 },
+      { id: 11, x: 88, y: 64 },
+      { id: 12, x: 92, y: 42 },
+    ],
     []
   );
 
@@ -60,6 +63,33 @@ export default function ContactSection() {
       ...current,
       active: false,
     }));
+  };
+
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+
+    if (!message.trim()) return;
+
+    setLoading(true);
+    setSubmitted(false);
+
+    const response = await fetch("https://formspree.io/f/mykoqvor", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        message,
+      }),
+    });
+
+    setLoading(false);
+
+    if (response.ok) {
+      setSubmitted(true);
+      setMessage("");
+    }
   };
 
   return (
@@ -129,22 +159,47 @@ export default function ContactSection() {
           Ich freue mich über Austausch & neue Perspektiven :)
         </p>
 
-        <div className="mt-10 flex flex-col items-center gap-4 text-sm uppercase tracking-[0.12em] md:flex-row md:justify-center md:gap-8">
-          <a
-  href="mailto:jul.knoetzele@gmail.com?subject=Kontakt%20%C3%BCber%20Portfolio"
-  className="relative z-20 text-white/60 transition hover:text-accent"
->
-  Mail
-</a>
-          <Link
-  href="https://www.linkedin.com/in/julia-kn%C3%B6tzele-186333326/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-white/60 transition hover:text-accent"
->
-  LinkedIn
-</Link>
-        </div>
+        <div className="mt-10 flex flex-col items-center gap-4">
+  <div className="flex w-full max-w-2xl flex-col items-center justify-center gap-6 md:flex-row md:items-start">
+    <a
+      href="mailto:jul.knoetzele@gmail.com?subject=Kontakt%20%C3%BCber%20Portfolio"
+      className="relative z-20 rounded-sm border border-white/20 px-4 py-2 text-sm uppercase tracking-[0.12em] text-white/70 transition hover:border-accent hover:text-accent"
+    >
+      Mail
+    </a>
+
+    <form
+      onSubmit={handleSubmit}
+      className="flex  max-w-2xl flex-col items-center gap-3"
+    >
+      <textarea
+        value={message}
+        onChange={(event) => {
+          setMessage(event.target.value);
+          setSubmitted(false);
+        }}
+        name="message"
+        placeholder="Leave an anonymous thought..."
+        className="w-full rounded-sm border border-white/20 bg-transparent px-4 py-3 text-sm text-white placeholder:text-white/40 transition hover:border-accent/50 focus:border-accent focus:outline-none"
+        rows={4}
+      />
+
+      <button
+        type="submit"
+        disabled={loading || !message.trim()}
+        className="rounded-sm border border-white/20 px-6 py-2 text-sm uppercase tracking-[0.12em] text-white/70 transition hover:border-accent hover:text-accent disabled:cursor-not-allowed disabled:opacity-40"
+      >
+        {loading ? "Sending..." : "Send"}
+      </button>
+    </form>
+  </div>
+
+  {submitted && (
+    <p className="text-sm text-accent">
+      Danke — deine Nachricht wurde anonym gesendet :)
+    </p>
+  )}
+</div>
       </div>
     </section>
   );

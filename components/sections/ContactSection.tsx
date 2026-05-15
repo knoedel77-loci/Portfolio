@@ -126,16 +126,18 @@ export default function ContactSection() {
         </p>
 
         <p className="mt-6 text-sm leading-relaxed text-white/55 md:text-base">
-          Ich freue mich über Austausch, neue Perspektiven :)
+          Ich freue mich über Austausch & neue Perspektiven :)
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4 text-sm uppercase tracking-[0.12em] md:flex-row md:justify-center md:gap-8">
           <a
-            href="mailto:jul.knoetzele@gmail.com"
-            className="text-white/60 transition hover:text-accent"
-          >
-            Mail
-          </a>
+  href="mailto:jul.knoetzele@gmail.com?subject=Kontakt%20%C3%BCber%20Portfolio"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="relative z-20 text-white/60 transition hover:text-accent"
+>
+  Mail
+</a>
 
           <Link
   href="https://www.linkedin.com/in/julia-kn%C3%B6tzele-186333326/"

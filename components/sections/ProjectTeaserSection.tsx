@@ -34,7 +34,7 @@ const projects = [
     href: "/projects/hacking-porcelain",
     media: {
       type: "image" as const,
-      src: "/Images/projects/Porcelain/Pasta.png",
+      src: "/Images/projects/Pasta.png",
     },
     summary:
       "Eine experimentelle Untersuchung keramischer Formprozesse, bei der Materialverhalten, Schwerkraft und menschliche Kontrolle als gestaltende Parameter verstanden werden.",

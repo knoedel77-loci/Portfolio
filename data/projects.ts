@@ -1187,35 +1187,35 @@ Das Projekt versteht Schuhsohlen weniger als fertiges Produkt, sondern als Schni
 
   images: [
     {
-      src: "/Images/projects/additional/Waage.jpg",
+      src: "/Images/projects/additional/Waage.JPG",
       alt: "Visualisierung von Schuhsohlenabrieb",
       caption:
         "100 Gramm konventionelles Sohlenmaterial. Ungefähr die Menge, die eine Person pro Jahr durchschnittlich durch Schuhabrieb verliert und meist unbemerkt in Umweltkreisläufe abgibt.",
     },
 
     {
-      src: "/Images/projects/additional/fläschchen.jpg",
+      src: "/Images/projects/additional/fläschchen.JPG",
       alt: "Materialkomponenten des Biokunststoffs",
       caption:
         "Materialrezept des finalen Biokunststoffs: Essig, Zucker, Dextrin und ein variabler Feststoff - hier Kaffeesatz.",
     },
 
     {
-      src: "/Images/projects/additional/Material.jpg",
+      src: "/Images/projects/additional/Material.JPG",
       alt: "Materialtests",
       caption:
         "Materialtests zur Untersuchung von Flexibilität, Abriebverhalten und Bearbeitbarkeit des entwickelten Sohlenmaterials.",
     },
 
     {
-      src: "/Images/projects/additional/sohlenform.jpg",
+      src: "/Images/projects/additional/sohlenform.JPG",
       alt: "Form zur Sohlenherstellung",
       caption:
         "Offene Produktionsform zur eigenständigen Herstellung, Reparatur und Reproduktion individuell angepasster Sohlen.",
     },
 
     {
-      src: "/Images/projects/additional/Sandale.jpg",
+      src: "/Images/projects/additional/Sandale.JPG",
       alt: "Finaler Sandalenprototyp",
       caption:
         "Finaler Prototyp, der die Materialexperimente in ein tragbares Artefakt übersetzt.",

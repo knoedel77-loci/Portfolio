@@ -171,7 +171,7 @@ export default function ProjectRecurringQuestions({ project }: Props) {
               </button>
             </div>
 
-            <div className="grid min-h-0 flex-1 gap-8 overflow-y-auto md:grid-cols-[1.15fr_0.85fr] md:overflow-hidden">
+            <div className="grid min-h-0 flex-1 gap-8 overflow-y-auto md:grid-cols-[0.8fr_1.2fr] md:overflow-hidden">
               <div
                 className="space-y-4 overflow-y-auto pr-0 md:pr-4"
                 style={{
@@ -226,7 +226,7 @@ export default function ProjectRecurringQuestions({ project }: Props) {
                   </div>
                 </div>
 
-                <div className="grid gap-3 border-t border-white/10 pt-6 md:grid-cols-2">
+                <div className="grid gap-3 border-t border-white/10 pt-6 md:grid-cols-2 ">
                   <button
                     type="button"
                     onClick={goPrev}

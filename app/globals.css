@@ -1,19 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fafafa;
-  --foreground: #1a1a1a;
-  --muted: #6b7280;
-  --accent: #4f46e5;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f0f0f;
-    --foreground: #ededed;
-    --muted: #9ca3af;
-    --accent: #6366f1;
-  }
+  --background: #0f0f0f;
+  --foreground: #ededed;
+  --muted: #9ca3af;
+  --accent: #6366f1;
 }
 
 @theme {
@@ -34,4 +25,5 @@ body {
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }

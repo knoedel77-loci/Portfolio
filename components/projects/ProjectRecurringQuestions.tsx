@@ -189,7 +189,7 @@ export default function ProjectRecurringQuestions({ project }: Props) {
                       alt={image.alt}
                       width={1400}
                       height={1000}
-                      className="h-auto w-full object-contain"
+                      className="max-h-[46vh] w-full object-contain"
                     />
 
                     {image.caption && (

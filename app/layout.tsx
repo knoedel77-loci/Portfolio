@@ -37,9 +37,9 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="de"
-      className={`${roboto.variable}  ${playfair.variable} ${sora.variable} ${zendots.variable}`}
-    >
+  lang="de"
+  className={`dark ${roboto.variable} ${playfair.variable} ${sora.variable} ${zendots.variable}`}
+>
       <body>
         <Navbar/>
         

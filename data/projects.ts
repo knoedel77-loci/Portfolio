@@ -1129,16 +1129,17 @@ items: [
   context: "Perception · Echolocation · Wearable Interfaces",
   question:
     "How can sound become an alternative way of sensing space?",
-  text: `Dieses Projekt untersucht menschliche Echoortung als alternative Form räumlicher Wahrnehmung.
+  text: `Das Projekt entstand aus dem übergeordneten Thema Sound und der Frage, welche Rolle Geräusche für unsere Orientierung im Alltag spielen. Durch Soundwalks und erste Klangexperimente wurde mir bewusst, wie viele räumliche Informationen wir permanent über akustische Signale wahrnehmen — meist unbewusst.
 
-Ausgangspunkt waren Recherchen zu blinden Echolokations-Nutzerinnen wie Daniel Kish sowie wissenschaftliche Studien zu Neuroplastizität und der Frage, wie das Gehirn reflektierte Schallinformationen in räumliche Orientierung übersetzen kann. Besonders faszinierend war für mich die Erkenntnis, dass Echos bei geübten Nutzerinnen teilweise im visuellen Cortex verarbeitet werden.
+Im Rahmen meiner Recherche entdeckte ich die Arbeit von blinden Echoortungs-Nutzer:innen wie Daniel Kish, die ihre Umgebung über Klickgeräusche und deren Reflexion räumlich erfassen. Mich faszinierte die Frage, wie präzise das Gehirn diese Informationen verarbeiten kann.
 
-Um dieses Phänomen besser zu verstehen, führte ich eigene Experimente durch und testete, wie unterschiedliche Materialien, Formen und Winkel reflektierten Schall verändern. Mit Alltagsobjekten untersuchte ich, wie sich räumliche Unterschiede hörbar machen lassen.
+Daraufhin beschäftigte ich mich mit Studien zu Neuroplastizität und auditiver Wahrnehmung. Besonders spannend war für mich die Erkenntnis, dass reflektierte Schallinformationen bei geübten Nutzer:innen teilweise im visuellen Cortex verarbeitet werden.
 
-Parallel dazu baute ich eigene piezo-basierte Prototypen, lötete Mikrofone und Lautsprecher und experimentierte mit verschiedenen Resonanzkörpern, um zu verstehen, wie Klang verstärkt, übertragen oder in tragbare Systeme integriert werden könnte.
+Parallel führte ich eigene Experimente durch und testete, wie unterschiedliche Materialien, Formen und Winkel reflektierten Schall verändern. Mit Alltagsobjekten versuchte ich selbst, räumliche Unterschiede über Klickgeräusche wahrzunehmen und ein besseres Verständnis für diese Wahrnehmungsform zu entwickeln.
 
-Statt ein fertiges Assistenzprodukt zu entwickeln, wurde das Projekt zunehmend zu einer Untersuchung über Wahrnehmung, Lernen und technologische Eingriffe: Wann unterstützt Technologie menschliche Fähigkeiten — und wann beginnt sie, natürliche Anpassungsprozesse eher zu ersetzen als zu fördern?`,
-        
+Darauf aufbauend untersuchte ich, wie ein unterstützendes technisches System gestaltet werden könnte: Welche Frequenzen eignen sich für unterschiedliche Distanzen? Wo müsste eine Schallquelle am Körper positioniert sein? Wie könnte ein System gesteuert und durch Bewegung oder körpernahe Energiequellen versorgt werden?
+
+Das Projekt war eine offene Untersuchung eines wenig erforschten Wahrnehmungsphänomens und der Frage, ob und wie dieses technisch sinnvoll unterstützt werden könnte.`,
   
 
 images: [
@@ -1175,16 +1176,17 @@ images: [
   question:
     "What do we leave behind without noticing?",
 
-  text: `Das Projekt entstand aus dem übergeordneten Thema Staub und der Frage, welche materiellen Spuren alltägliche Routinen hinterlassen. Ausgangspunkt war eine oft übersehene Form von Abrieb: Schuhsohlen verlieren mit jedem Schritt kleinste Partikel, die als Mikroplastik in Umweltkreisläufe gelangen - ein Prozess, an dem nahezu jede Person täglich beteiligt ist, ohne ihn bewusst wahrzunehmen.
+  text: `Das Projekt entstand aus dem übergeordneten Thema Staub und der Frage, welche materiellen Spuren alltägliche Routinen hinterlassen. Ein oft übersehener Abrieb entsteht bei Schuhsohlen: Mit jedem Schritt lösen sich kleinste Partikel, die als Mikroplastik in Umweltkreisläufe gelangen- ein Prozess, an dem nahezu jede Person täglich beteiligt ist, ohne ihn bewusst wahrzunehmen.
 
-Mich interessierte, wie sich diese Logik neu denken lässt. Statt Abrieb lediglich zu reduzieren, untersuchte ich nach dem Prinzip Cradle to Cradle, ob aus einem negativen ökologischen Fußabdruck ein regenerativer Kreislauf entstehen könnte. Kann ein Material, das sich abträgt, der Umwelt im besten Fall sogar etwas zurückgeben?
+Statt lediglich zu überlegen, wie sich dieser Abrieb reduzieren lässt, untersuchte ich nach dem Cradle-to-Cradle-Prinzip, ob daraus sogar ein positiver Beitrag entstehen kann. Frei nach dem Gedanken „weniger schlecht ist nicht automatisch gut“ stellte sich die Frage, ob ein Material, das sich bewusst abträgt, im besten Fall der Umwelt sogar etwas zurückgeben könnte.
 
-Dafür experimentierte ich mit selbst entwickelten Biokunststoffen auf Basis von Dextrin und testete unterschiedliche organische Feststoffe wie Kaffeesatz, Dünger und gepresste biologische Reststoffe wie Pferdemist.
+Dafür entwickelte ich eigene Biokunststoffe auf Dextrinbasis und experimentierte mit verschiedenen organischen Zusatzstoffen wie Kaffeesatz, Dünger und gepressten biologischen Reststoffen wie Pferdemist.
 
-Parallel entwickelte ich eine wiederverwendbare Sohlenform sowie die Idee eines offenen Systems, in dem Rezepturen und Produktionsdaten frei zugänglich sind. Nutzerinnen und Nutzer könnten ihre Sohlen individuell anpassen, selbst herstellen, reparieren und mit neuen Materialmischungen reproduzieren. Mich interessierte dabei auch, wie sich durch diesen Prozess ein bewussteres Verhältnis zu Materialverschleiß und Produktlebenszyklen entwickeln könnte.
+Parallel entstand die Idee eines offenen Produktionssystems: Sohlenformen können individuell angepasst und per 3D-Druck selbst hergestellt werden, während Rezepturen und Produktionsdaten Open Source zugänglich bleiben. Nutzer:innen könnten ihre Sohlen selbst produzieren, reparieren und mit neuen Materialmischungen weiterentwickeln.
 
-Das Projekt versteht Schuhsohlen weniger als fertiges Produkt, sondern als Schnittstelle zwischen Materialverschleiß, Ressourcenkreisläufen und neuen Formen von Produktion, Reparatur und Materialverantwortung. Mich interessierte, wie Gestaltung unsichtbare Infrastrukturen des Alltags sichtbar machen und bestehende Materialsysteme grundlegend hinterfragen kann.`,
+Durch die eigene Herstellung und Reparatur entsteht ein direkterer Bezug zum Produkt und seinem Materialverbrauch. Anstelle eines Wegwerfprodukts rückt ein bewussterer Umgang mit Verschleiß, Nutzung und Lebensdauer in den Fokus.
 
+Das Projekt versteht Schuhsohlen als Teil eines größeren Materialkreislaufs und untersucht, wie alternative Produktionsmodelle unseren Umgang mit Ressourcen verändern könnten.`,
   images: [
     {
       src: "/Images/projects/additional/Waage.JPG",

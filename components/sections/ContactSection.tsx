@@ -122,12 +122,11 @@ export default function ContactSection() {
       <div className="relative z-10 mx-auto max-w-3xl text-center">
         <p className="font-heading text-xl leading-relaxed md:text-2xl">
           Wenn dich etwas an meinen Arbeiten interessiert, du Fragen hast oder
-          eigene Gedanken dazu teilen möchtest — melde dich gerne.
+          eigene Gedanken dazu teilen möchtest - melde dich gerne.
         </p>
 
         <p className="mt-6 text-sm leading-relaxed text-white/55 md:text-base">
-          Ich freue mich über Austausch, neue Perspektiven und alles, was meine
-          Gedanken nochmal in eine andere Richtung schubst.
+          Ich freue mich über Austausch, neue Perspektiven :)
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4 text-sm uppercase tracking-[0.12em] md:flex-row md:justify-center md:gap-8">

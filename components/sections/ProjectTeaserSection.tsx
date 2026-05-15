@@ -10,7 +10,7 @@ const projects = [
     href: "/projects/dj-ai",
     media: {
       type: "video" as const,
-      src: "/Images/projects/Algorave.mp4",
+      src: "/videos/Algorave.mp4",
     },
     summary:
       "Ein experimentelles Live-Coding-System, in dem KI-generierter Musikcode direkt in den performativen Workflow zurückgespielt und weiterbearbeitet werden kann.",
@@ -22,7 +22,7 @@ const projects = [
     href: "/projects/memory-palace-ba",
     media: {
       type: "image" as const,
-      src: "/Images/projects/Bachelor.png",
+      src: "/Images/projects/Bachelor/Bachelor.png",
     },
     summary:
       "Ein research-basiertes Systemkonzept zur Frage, wie KI Lernprozesse unterstützen kann, ohne selbstgeneriertes Denken und kognitive Eigenständigkeit zu ersetzen.",
@@ -34,7 +34,7 @@ const projects = [
     href: "/projects/hacking-porcelain",
     media: {
       type: "image" as const,
-      src: "/Images/projects/Pasta.png",
+      src: "/Images/projects/Porcelain/Pasta.png",
     },
     summary:
       "Eine experimentelle Untersuchung keramischer Formprozesse, bei der Materialverhalten, Schwerkraft und menschliche Kontrolle als gestaltende Parameter verstanden werden.",

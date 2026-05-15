@@ -22,7 +22,7 @@ const projects = [
     href: "/projects/memory-palace-ba",
     media: {
       type: "image" as const,
-      src: "/Images/projects/Bachelor/Bachelor.png",
+      src: "/Images/projects/Bachelor/Bachelormindmap.png",
     },
     summary:
       "Ein research-basiertes Systemkonzept zur Frage, wie KI Lernprozesse unterstützen kann, ohne selbstgeneriertes Denken und kognitive Eigenständigkeit zu ersetzen.",

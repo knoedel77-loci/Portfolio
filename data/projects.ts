@@ -12,7 +12,7 @@ const projects: Project[] = [
         type: "image",
         src: "/Images/projects/DJs.jpg",
         alt: "DJ AI project hero image",
-        caption: "Performance and interface setup",
+        
       },
     },
 
@@ -273,7 +273,7 @@ interactionSection: {
       type: "image",
       src: "/Images/projects/Bachelor/platzhalter.png",
       alt: "Bachelor thesis project hero image",
-      caption: "Konzeption eines partizipativen KI-Lernsystems zur mnemonischen Wissensorganisation",
+     
     },
   },
 
@@ -644,7 +644,6 @@ Darüber hinaus bleiben methodische und ethische Fragen offen, etwa im Umgang mi
       type: "image",
       src: "/Images/projects/Pasta.png", 
       alt: "Extrudiertes Porzellanobjekt mit verschlungenen Strukturen",
-      caption: "Manuelle Extrusion als offenes Formgenerierungssystem",
     },
   },
 
@@ -658,18 +657,15 @@ Darüber hinaus bleiben methodische und ethische Fragen offen, etwa im Umgang mi
   thesis: {
   question: `Wie lässt sich industrielle Porzellanextrusion so öffnen, dass Form nicht vorgegeben, sondern im Zusammenspiel von Material, Werkzeug, Bewegung und Schwerkraft erzeugt wird?`,
 
-  motivation: `Industrielle Extrusionsverfahren sind auf Wiederholbarkeit und Kontrolle ausgelegt. Form wird dabei weitgehend vorab definiert und während des Prozesses reproduziert. Gleichzeitig zeigt sich, dass diese Form der Kontrolle die direkte Auseinandersetzung mit dem Material und die Möglichkeit spontaner Entscheidungen stark einschränkt.
+  motivation: `Industrielle Extrusionsprozesse sind auf Präzision und Wiederholbarkeit ausgelegt. Form entsteht dabei meist innerhalb klar definierter Parameter und lässt wenig Raum für situative Entscheidungen während des Prozesses.
 
-Das Projekt geht von der Frage aus, ob und wie sich dieser Prozess so erweitern lässt, dass Variabilität, situative Eingriffe und eine stärkere Einbindung des Menschen wieder Teil der Formgebung werden können.`
-},
+Das Projekt untersucht, wie sich diese Formlogik erweitern lässt, sodass Materialverhalten, Bewegung, Schwerkraft und menschliche Eingriffe aktiver an der Formentstehung beteiligt werden können.`},
 
 productionContext: {
   title: "Context",
-  intro: `Das Projekt entstand im Rahmen einer Kooperation mit Kober Porzellan in Steinwiesen. Im Produktionsumfeld wurden unterschiedliche Verfahren sichtbar, die mit extrudierter Porzellanmasse arbeiten.
+  intro: `Das Projekt entstand in Kooperation mit Kober Porzellan in Steinwiesen. Im Produktionskontext wurden zwei unterschiedliche Verfahren sichtbar, die beide mit extrudierter Porzellanmasse arbeiten, jedoch unterschiedliche Formen der Steuerung nutzen.
 
-Neben industriellen Extrusionsanlagen, die zur Herstellung keramischer Profile eingesetzt werden, wird auch keramischer 3D-Druck genutzt, bei dem Material schichtweise im Raum aufgebaut wird.
-
-Die folgenden Beispiele zeigen beide Verfahren in ihrem jeweiligen Einsatzkontext.`,
+Die folgenden Beispiele zeigen industrielle Extrusion und keramischen 3D-Druck als zwei bestehende Referenzsysteme.`,
 items: [
     {
       title: "Industrielle Extrusion",
@@ -701,19 +697,16 @@ items: [
 
     },
   ],
-  conclusion: `Beide Verfahren zeigen klar definierte Formen der Steuerung: Während in der industriellen Extrusion Form über die Geometrie der Matrize festgelegt wird, entsteht sie im 3D-Druck durch eine vorab bestimmte Bewegungsabfolge im Raum.
+ conclusion: `Die Gegenüberstellung macht sichtbar, dass beide Verfahren Form stark vorstrukturieren - entweder durch feste Werkzeuge oder durch digitale Bewegungslogiken.
 
-In beiden Fällen ist der Prozess weitgehend vorstrukturiert und lässt nur begrenzten Spielraum für situative Eingriffe während der Formgebung.
-
-Aus dieser Gegenüberstellung entsteht die Frage, ob sich Extrusion als Verfahren so erweitern lässt, dass Form nicht ausschließlich durch Werkzeug oder digitale Planung bestimmt wird, sondern im direkten Zusammenspiel von Material, Bewegung und menschlicher Entscheidung entsteht.`,
-},
+Die Arbeit setzt genau an dieser Lücke an: Sie untersucht, wie Extrusion als offeneres System gedacht werden kann, in dem Form nicht vollständig vorab definiert wird, sondern während des Prozesses durch Materialverhalten, Bewegung, Schwerkraft und situative Entscheidungen entsteht.`},
 
 
 intervention: {
   title: "Manual Extrusion System",
 
-   intro: `Ausgehend vom Vergleich industrieller Extrusion und keramischem 3D-Druck wurde ein eigenes manuelles Extrusionssetup entwickelt. Im Vordergrund stand nicht ein fertiges Produkt, sondern ein Verfahren, das während der Formgebung offen für Materialverhalten, Bewegung und situative Entscheidungen bleibt.`,
-  media: {
+   intro: `Zur Untersuchung dieser Fragestellung wurde ein manuelles Extrusionssystem entwickelt, das industrielle Logiken bewusst reduziert. Statt vorab definierter Form ermöglicht das Setup direkte Eingriffe während des Prozesses und macht Materialverhalten, Bewegung und Schwerkraft zu aktiven Formgebern.`,
+    media: {
     src: "/Images/projects/Porcelain/Extruderaufbau.png",
     alt: "Aufbau des manuellen Extrusionssystems mit Kartuschenpresse, Schablonen, Schwamm, Bomse und Trennmittel",
     caption: "Aufbau der manuellen Extrusion: Die vorbereitete Porzellanmasse wird mit einer Kartuschenpresse durch austauschbare Schablonen gedrückt und auf mit Trennmittel beschichtete Bomsen extrudiert.",
@@ -753,19 +746,19 @@ parameterGroups: [
             src: "/Images/projects/Porcelain/materialfluessig01.jpg",
             group: "höherer Wasseranteil",
             alt: "Mehrere weiche Porzellansegmente mit abgerundeten Formen und sichtbarer seitlicher Verformung",
-            caption: "Die extrudierten Segmente behalten zunächst ihre Spur, setzen sich jedoch zu niedrigen, abgerundeten Formen ab. Das Material zeigt ein Nachgeben nach der Ablage und verändert seine Kontur weiter."
+            caption: "Die extrudierten Segmente behalten zunächst ihre Form, setzen sich jedoch ab und verschmelzen miteinander. Einzelne Layer sind erkennbar, verändern aber ihren Querschnitt und sind eher instabil."
           },
           {
             src: "/Images/projects/Porcelain/Materialstabil02.jpg",
             group: "mittlerer Wasseranteil",
             alt: "Lange Porzellanstränge, die sich in einer Form überlagern und Schlaufen bilden",
-            caption: "Die Stränge sammeln sich im Formkörper, behalten weitgehend ihr Profil und bilden Schlaufen und Überlagerungen. In diesem Zustand reagiert das Material flexibel auf Ablage, Krümmung und Eigengewicht."
+            caption: "Die Stränge sammeln sich im Formkörper, behalten weitgehend ihr Profil und bilden Schlaufen und Überlagerungen. In diesem Zustand reagiert das Material stabil auf Ablage, Krümmung und Eigengewicht."
           },
           {
             src: "/Images/projects/Porcelain/materialstabil01.jpg",
             group: "mittlerer Wasseranteil",
             alt: "Porzellanstränge, die sich um die Wand eines Gefäßes legen und zwischen Punkten spannen",
-            caption: "Die Stränge legen sich um die Gefäßform und bleiben als einzelne Linien erkennbar. Das Material folgt der Krümmung, ohne unmittelbar zu verlaufen, und bildet stellenweise gespannte Verbindungen zwischen Auflagepunkten."
+            caption: "Die Stränge legen sich um die Gefäßform und folgen der Krümmung. Sie bilden entgegen der schwerkraft gespannte Verbindungen zwischen Auflagepunkten."
           },
           {
             src: "/Images/projects/Porcelain/materialfest01.JPG",
@@ -809,7 +802,7 @@ parameterGroups: [
           {
             src: "/Images/projects/Porcelain/schabloneRillen.JPG",
             alt: "Stapelung extrudierter Masse mit gerilltem Profil",
-            caption: "Das Material wird mit feinen, durchgehenden Rillen extrudiert, die auch in Krümmungen erhalten bleiben. Die Stränge legen sich ebenfalls gleichmäßig übereinander, wirken teilweise aber spröde."
+            caption: "Das Material wird mit feinen, durchgehenden Rillen extrudiert, die auch in Krümmungen erhalten bleiben. Die Stränge legen sich ebenfalls gleichmäßig übereinander."
           },
           {
             src: "/Images/projects/Porcelain/schabloneRund.JPG",
@@ -832,7 +825,7 @@ parameterGroups: [
           "Die Bewegung wirkt sich auf die Ablage der Stränge aus. Je nach Führung entstehen unterschiedliche Ablagen, Verdichtungen, Überlagerungen oder frei fallende Abschnitte. Die Ausprägung wird dabei auch durch das Verhalten des Materials beeinflusst.",
 
         sensitiveRange:
-          "Die Bewegung gibt eine Richtung vor, wird jedoch durch das Verhalten des Materials mitgeprägt. Wiederholte Abläufe führen zu ähnlichen Strukturen, bleiben jedoch in ihrer konkreten Ausformung variabel. Veränderungen in der Bewegung können sich direkt in der Ablage der Stränge zeigen.",
+          "Die Bewegung gibt eine Richtung vor, wird jedoch durch das Verhalten des Materials mitgeprägt. Wiederholte Abläufe führen zu ähnlichen Strukturen, bleiben jedoch in ihrer konkreten Ausformung individuell. ",
 
         media: [
           {
@@ -843,12 +836,12 @@ parameterGroups: [
           {
             src: "/Images/projects/Porcelain/bewegung001.jpg",
             alt: "Vergleich zwischen gerader und bewegter Extrusion",
-            caption: "Bei gleichbleibender Extrusionsmenge zeigen sich unterschiedliche Ablagen in Abhängigkeit von der Bewegung. Eine gleichmäßige, lineare Führung ergibt gestreckte Stränge, während bei langsamerer Bewegung Material lokal aufstaut, seitlich verdrängt wird und in Krümmungen sowie Überlagerungen ausweicht.",
+            caption: "Bei konstanter, senkrechter Extrusion verändert allein die Distanz zum Boden das Verhalten des Materials: geringe Abstände führen zu dichter Stapelung, größere Fallhöhen zu offeneren Ablagen und teilweise veränderten Profilquerschnitten beim Aufprall.",
           },
           {
             src: "/Images/projects/Porcelain/Bewegungskizze.jpg",
             alt: "Skizze einer Bewegungsabfolge und daraus resultierende Struktur",
-            caption: "Wiederholte Bewegungsabfolgen werden als kontinuierliche Linien beschrieben. In der materiellen Ablage folgen die Stränge dieser Bewegungslogik, zeigen jedoch Abweichungen in ihrer Ausformung durch Eigengewicht und Materialverhalten.",
+            caption: "Wiederholte Bewegungsabfolgen werden als kontinuierliche Linien beschrieben. In der materiellen Ablage folgen die Stränge dieser Bewegungslogik, zeigen jedoch Abweichungen in ihrer Ausformung.",
           },
           {
             src: "/Images/projects/Porcelain/Bewegung45.jpg",
@@ -858,7 +851,7 @@ parameterGroups: [
           {
             src: "/Images/projects/Porcelain/BewegungAB.jpg",
             alt: "Vergleich zwischen zwei Ablagesituationen bei unterschiedlicher Ausrichtung",
-            caption: "Bei konstanter Extrusion zeigen sich unterschiedliche Ablagen in Abhängigkeit von Ausrichtung und Bewegung. Wird der Extruder parallel zur Oberfläche gehalten, lagern sich die Stränge schichtweise und geordnet ab. Bei senkrechter Ausrichtung können sie nicht direkt aufliegen und weichen seitlich aus, wodurch Schlaufen und Überlagerungen entstehen.",
+            caption: "Bei konstanter Extrusion zeigen sich unterschiedliche Ablagen in Abhängigkeit von Ausrichtung und Bewegung. Wird der Extruder parallel zur Oberfläche gehalten, lagern sich die Stränge schichtweise und geordnet ab. Bei senkrechter Ausrichtung weichen sie seitlich aus, wodurch Schlaufen und Überlagerungen entstehen.",
           }
         ]
       },
@@ -947,11 +940,9 @@ parameterGroups: [
 },
 ],
 
-conclusion: `Die Untersuchungen zeigen, dass Form nicht als vorab definierte Geometrie entsteht, sondern als Ergebnis eines Prozesses, in dem Material, Werkzeug, Bewegung und räumliche Bedingungen gleichzeitig wirken.
+conclusion: `Die Parameter konnten einzeln verändert werden, reagierten jedoch nie isoliert. Bereits kleine Anpassungen in Materialkonsistenz, Bewegung oder räumlicher Anordnung veränderten gleichzeitig Stabilität, Ablageverhalten und die Interaktion der Stränge.
 
-Die Formbildung verschiebt sich damit von einer kontrollierten Ausführung hin zu einer situativen Aushandlung im Prozess. Entscheidungen entstehen nicht nur vorab, sondern kontinuierlich während der Extrusion.
-
-Das Setup eröffnet damit eine Form der Gestaltung, die weniger auf Reproduzierbarkeit ausgerichtet ist, sondern auf das gezielte Arbeiten mit Variabilität, Materialverhalten und Prozessdynamiken.`,
+Form entstand dadurch nicht als lineares Ergebnis eines einzelnen Werkzeugs, sondern als Reaktion auf mehrere voneinander abhängige Bedingungen. Gestaltung verlagerte sich vom direkten Definieren einer Form hin zur Steuerung eines Prozesses, dessen genaue Ausformung erst während der Extrusion sichtbar wurde.`,
 },
 
 formations: {
@@ -1087,9 +1078,12 @@ Langfristig könnte der Ansatz auch auf größere Material-, Produktions- oder r
       type: "image",
       src: "/Images/projects/Mindmap.png",
       alt: "Collage verschiedener kleiner Projekte",
-      caption:
-        "Unterschiedliche Projekte, verbunden durch wiederkehrende systemische Fragestellungen",
-    },
+     caption: `Neben meinen Hauptprojekten entstanden im Studium auch zahlreiche klassische Produktdesignarbeiten — von Produktentwicklung, CAD, technischen Zeichnungen, Rendering, Modellbau, Prototyping und Fotografie bis hin zu räumlichen Konzepten, Materialexperimenten und technischen Interventionen.
+
+Die Projekte reichten von medizinischen und alltagsbezogenen Produktsystemen über Wohnkonzepte und Bewässerungssysteme bis hin zu experimentellen Arbeiten zu Material, Wahrnehmung und Bewegung.
+
+Ich führe diese Arbeiten bewusst nicht einzeln aus, da dieses Portfolio stärker Projekte hervorhebt, die mein heutiges Interesse an systemischem Denken, Materialverhalten und Mensch-Technologie-Interaktion repräsentieren.`,
+},
   },
 
   meta: [
@@ -1102,21 +1096,16 @@ Langfristig könnte der Ansatz auch auf größere Material-, Produktions- oder r
     label: "Positioning",
   question: `Why These Projects Matter`,
 
-  motivation: `Diese Seite versammelt kleinere Projekte, die in unterschiedlichen Kontexten entstanden sind und nicht alle als vollständig ausgearbeitete Hauptarbeiten verstanden werden.
+  motivation: `Trotz ihrer unterschiedlichen Kontexte tauchen in diesen Arbeiten wiederkehrende Fragestellungen auf: Wie beeinflussen Objekte Verhalten? Wie formen Systeme alltägliche Routinen? Welche materiellen, sozialen oder ökologischen Folgen bleiben oft unsichtbar?
 
-Für mich sind sie trotzdem relevant, weil sie zeigen, welche Fragen in meiner Arbeit immer wieder auftauchen: Wie beeinflussen gestaltete Systeme menschliches Verhalten? Welche ökologischen oder sozialen Folgen entstehen durch alltägliche Objekte? Und wie kann Gestaltung unterstützen, ohne Kontrolle vollständig zu übernehmen?
-
-Die Projekte sind daher weniger als Sammlung abgeschlossener Ergebnisse zu verstehen, sondern als Hinweise auf wiederkehrende Interessen, die sich durch mein Portfolio ziehen: Systeme, Abhängigkeiten, Zugänglichkeit, Materialspuren und menschliche Handlungsspielräume.`,
+Viele dieser Projekte entstanden deutlich früher oder in kleinerem Umfang als meine Hauptarbeiten. Rückblickend machen sie jedoch sichtbar, dass sich zentrale Interessen bereits früh durch meine Arbeit ziehen: Systeme, Materialverhalten, Zugänglichkeit, Wahrnehmung und menschliche Handlungsspielräume.`,
 },
 
     recurringQuestions: {
   eyebrow: "Additional Investigations",
   title: "Weitere Projekte",
 
-  intro: `Diese Auswahl versammelt kleinere Projekte, Skizzen und Untersuchungen, die nicht den Umfang meiner Hauptprojekte haben, aber einzelne Interessen und Denkbewegungen sichtbar machen. Die Arbeiten reichen von Material- und Objektstudien bis zu Fragen rund um Mobilität, Wohnen, Gesundheit und Wahrnehmung.
-
-Ich verstehe sie weniger als abgeschlossene Positionen, sondern als kurze Einblicke in Themen, die ich ausprobiert, weitergedacht oder später wieder aufgegriffen habe.`,
-
+  intro: `Ausgewählte Nebenprojekte und Untersuchungen aus unterschiedlichen Kontexten.`,
 items: [
         {
   title: "Seeing Through Sound",

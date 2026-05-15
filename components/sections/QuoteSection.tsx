@@ -12,7 +12,7 @@ export default function HomeIntroSection() {
               alt="Portrait von Julia Knötzele"
               width={420}
               height={520}
-              className="aspect-4/5 w-full max-w-120px object-cover rounded-md md:max-w-160px"
+              className="aspect-4/5 w-full max-w-120px grayscale object-cover rounded-md md:max-w-160px"
             />
           </div>
         </div>

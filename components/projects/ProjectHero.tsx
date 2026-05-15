@@ -48,19 +48,35 @@ export default function ProjectHero({ project }: Props) {
 )}
         
       </div>
+{project.hero?.media?.src && (
+  <div>
+    <div className="overflow-hidden rounded-2xl">
+      <Image
+        src={project.hero.media.src}
+        alt={project.hero.media.alt || project.title}
+        width={1600}
+        height={1000}
+        className="h-auto w-full object-cover transition-transform duration-700 hover:scale-[1.02]"
+        priority
+      />
+    </div>
 
-      {project.hero?.media?.src && (
-        <div className="overflow-hidden rounded-2xl">
-          <Image
-            src={project.hero.media.src}
-            alt={project.hero.media.alt || project.title}
-            width={1600}
-            height={1000}
-            className="w-full h-auto object-cover transition-transform duration-700 hover:scale-[1.02]"
-            priority
-          />
-        </div>
-      )}
+    {project.hero.media.caption && (
+  <details className="mt-5 max-w-3xl group">
+    <summary className="cursor-pointer list-none text-sm text-white/50 transition hover:text-accent/75">
+      <span className="border-b border-white/20 group-open:border-white/40">
+        Kontext zur Collage anzeigen
+      </span>
+    </summary>
+
+    <p className="mt-4 text-sm leading-relaxed text-white/50 md:text-base">
+      {project.hero.media.caption}
+    </p>
+  </details>
+)}
+  </div>
+)}
+      
     </section>
   );
 }

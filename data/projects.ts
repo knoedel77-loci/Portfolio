@@ -128,7 +128,7 @@ interactionSection: {
   sketches: [
     {
       
-      image: "/images/projects/interactivflowww.jpg",
+      image: "/Images/projects/interactivflowww.jpg",
       imageAlt:
         "Hand-drawn interaction flow showing how AI-generated code enters a live coding workflow",
       caption:
@@ -136,7 +136,7 @@ interactionSection: {
     },
     {
       
-      image: "/images/projects/technicalfloww.png",
+      image: "/public/Images/projects/technicalfloww.png",
       imageAlt:
         "Technical sketch showing how prompt, code context, parent prompt and references are assembled before AI code generation",
       caption:

@@ -18,7 +18,7 @@ Ich möchte Gestaltung künftig stärker nutzen, um komplexe Zusammenhänge bess
   ],
 
   image: {
-    src: "/Images/me/ouioui.png",
+    src: "/Images/me/Aboutprofil.jpg",
     alt: "Portrait von Julia Knötzele",
   },
 },

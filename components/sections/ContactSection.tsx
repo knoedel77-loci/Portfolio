@@ -97,6 +97,7 @@ export default function ContactSection() {
       ref={sectionRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
+      id="contact"
       className="relative overflow-hidden px-6 py-28 md:py-36"
     >
       <div className="pointer-events-none absolute inset-0 hidden md:block">
@@ -160,7 +161,7 @@ export default function ContactSection() {
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4">
-  <div className="flex w-full max-w-2xl flex-col items-center justify-center gap-6 md:flex-row md:items-start">
+  <div className="flex w-full max-w-4xl flex-col items-center justify-center gap-6 md:flex-row md:items-start">
     <a
       href="mailto:jul.knoetzele@gmail.com?subject=Kontakt%20%C3%BCber%20Portfolio"
       className="relative z-20 rounded-sm border border-white/20 px-4 py-2 text-sm uppercase tracking-[0.12em] text-white/70 transition hover:border-accent hover:text-accent"
@@ -170,7 +171,7 @@ export default function ContactSection() {
 
     <form
       onSubmit={handleSubmit}
-      className="flex  max-w-2xl flex-col items-center gap-3"
+      className="flex  max-w-6xl flex-col items-center gap-3"
     >
       <textarea
         value={message}
@@ -196,7 +197,7 @@ export default function ContactSection() {
 
   {submitted && (
     <p className="text-sm text-accent">
-      Danke — deine Nachricht wurde anonym gesendet :)
+      Danke - deine Nachricht wurde anonym gesendet :)
     </p>
   )}
 </div>

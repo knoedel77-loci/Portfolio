@@ -128,7 +128,7 @@ export default function ProjectRecurringQuestions({ project }: Props) {
 
             <div>
               <h3 className="font-heading text-xl leading-snug text-white/45 md:text-2xl">
-                Weitere Projekte entstehen noch.
+                Weitere Projekte in Arbeit.
               </h3>
 
               <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/40">

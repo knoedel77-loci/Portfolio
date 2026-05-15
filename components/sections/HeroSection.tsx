@@ -13,9 +13,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="mt-12 max-w-2xl text-base leading-relaxed text-white/62 md:text-lg">
-           Produktdesign war mein Ausgangspunkt. Heute interessieren mich zunehmend die Strukturen hinter Produkten 
-           - von technologischen Systemen bis hin zu älteren Wissensformen, 
-           die im heutigen Kontext neu relevant werden könnten.</p>
+           Design hat für mich mit Produkten begonnen. Heute interessieren mich zunehmend die größeren Zusammenhänge dahinter - von technologischen Systemen bis hin zu älteren Wissensformen, die im heutigen Kontext neue Relevanz bekommen können.</p>
         </div>
       </div>
     </section>

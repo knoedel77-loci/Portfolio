@@ -16,14 +16,14 @@ export default function AboutHero({ hero }: Props) {
         </div>
 
         <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:gap-16">
-          <div className="overflow-hidden rounded-xl">
+          <div className="overflow-hidden rounded-md">
             <Image
               src={hero.image.src}
               alt={hero.image.alt}
               width={900}
-              height={1100}
+              height={1200}
               priority
-              className="aspect-4/5 w-full object-cover grayscale"
+              className="aspect-4/5 w-full object-cover "
             />
           </div>
 

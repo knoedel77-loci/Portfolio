@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { AboutExperiments as AboutExperimentsType } from "@/data/types";
 
 type Props = {
@@ -26,7 +27,7 @@ export default function AboutExperiments({ experiments }: Props) {
           {experiments.items.map((item) => (
             <article
               key={item.title}
-              className="rounded-xl border border-white/10 p-6 hover:border-white/20"
+              className="rounded-xl border border-white/10 p-6 transition-colors hover:border-white/20"
             >
               <h3 className="mb-4 text-base font-medium text-white">
                 {item.title}
@@ -38,6 +39,26 @@ export default function AboutExperiments({ experiments }: Props) {
             </article>
           ))}
         </div>
+
+        <div className="mt-20 flex flex-col items-center">
+  <div className="w-full max-w-sm overflow-hidden rounded-xl border border-white/10 bg-white/[0.03]">
+    <Image
+      src="/Images/me/Kumquat.jpeg"
+      alt="Kumquatbaum auf dem Weg zur Permakultur"
+      width={900}
+      height={1200}
+      className="h-auto w-full object-cover"
+    />
+  </div>
+
+  <p className="mt-6 max-w-md text-center text-ms leading-relaxed text-white/40 md:text-base">
+    Auf dem Weg mit einem neuen Kumquatbaum für die Permakultur.
+  </p>
+
+  <p className="mt-8 text-center text-lg text-white/65 mt-20">
+    Schön, dass ihr vorbeigeschaut habt :)
+  </p>
+</div>
       </div>
     </section>
   );

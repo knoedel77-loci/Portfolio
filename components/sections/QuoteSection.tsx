@@ -8,11 +8,11 @@ export default function HomeIntroSection() {
         <div className="justify-self-start">
           <div className="overflow-hidden rounded-1xl">
             <Image
-              src="/Images/me/ouioui.png"
+              src="/Images/me/Profilbild.JPG"
               alt="Portrait von Julia Knötzele"
               width={420}
               height={520}
-              className="aspect-4/5 w-full max-w-120px object-cover grayscale md:max-w-160px"
+              className="aspect-4/5 w-full max-w-120px object-cover rounded-md md:max-w-160px"
             />
           </div>
         </div>

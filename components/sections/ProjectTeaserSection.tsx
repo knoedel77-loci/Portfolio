@@ -10,7 +10,7 @@ const projects = [
     href: "/projects/dj-ai",
     media: {
       type: "video" as const,
-      src: "/videos/Algorave.mp4",
+      src: "/Images/projects/Algorave.mp4",
     },
     summary:
       "Ein experimentelles Live-Coding-System, in dem KI-generierter Musikcode direkt in den performativen Workflow zurückgespielt und weiterbearbeitet werden kann.",

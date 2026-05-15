@@ -774,7 +774,7 @@ parameterGroups: [
             caption: "Die Stränge legen sich um die Gefäßform und bleiben als einzelne Linien erkennbar. Das Material folgt der Krümmung, ohne unmittelbar zu verlaufen, und bildet stellenweise gespannte Verbindungen zwischen Auflagepunkten."
           },
           {
-            src: "/Images/projects/Porcelain/materialfest01.jpg",
+            src: "/Images/projects/Porcelain/materialfest01.JPG",
             group: "geringerer Wasseranteil",
             alt: "Porzellan wird aus einer Düse gepresst, wobei der Strang ungleichmäßig austritt und an der Oberfläche aufreißt",
             caption: "Der Strang tritt ungleichmäßig aus der Düse aus und zeigt eine raue, aufgerissene Oberfläche. Das Material lässt sich weiter extrudieren, reagiert aber weniger fließend und bildet Unterbrechungen in der Spur."

@@ -8,7 +8,7 @@ Sie verändern, wie wir denken, lernen und handeln.`,
     `Ursprünglich hat mich an Design gereizt, dass Ideen sichtbar und greifbar werden können und im besten Fall einen konkreten Mehrwert für Menschen schaffen. 
 Mit der Zeit haben mich jedoch immer stärker Fragen interessiert, die tiefer liegen: Wie beeinflussen Technologien unser Verhalten? Warum setzen sich bestimmte Systeme durch? Welche gesellschaftlichen oder ökologischen Folgen entstehen, wenn bestimmte Lösungen zur Norm werden? Welche älteren Prinzipien könnten im heutigen Kontext neu gedacht werden?
 
-Ich möchte Gestaltung künftig stärker nutzen, um komplexe Zusammenhänge besser zu verstehen, bestehende Systeme kritisch zu hinterfragen und neue Perspektiven sichtbar oder testbar zu machen — manchmal anwendungsbezogen, manchmal experimentell oder spekulativ.`,
+Ich möchte Gestaltung künftig stärker nutzen, um komplexe Zusammenhänge besser zu verstehen, bestehende Systeme kritisch zu hinterfragen und neue Perspektiven sichtbar oder testbar zu machen - manchmal anwendungsbezogen, aber auch experimentell und spekulativ.`,
   markers: [
     "Human-AI Interaction",
     "Lernen & Kognition",
@@ -48,7 +48,7 @@ interests: {
     "Mich interessiert, warum bestimmte Technologien oder Systeme als Fortschritt gelten - auch dann, wenn sie langfristig neue Probleme erzeugen. Gleichzeitig frage ich mich, welches ältere Wissen, welche Methoden oder Prinzipien heute in neuen Kontexten wieder relevant sein könnten.",
   questions: [
     "Was verlieren wir, wenn alles nur auf Effizienz ausgerichtet wird?",
-    "Welche alten Prinzipien verdienen ein neues Denken?",
+    "Welche älteren Prinzipien könnten im heutigen Kontext neu gedacht werden?",
   ],
 },
 
@@ -58,7 +58,7 @@ interests: {
     "Mich interessiert selten ein einzelnes Objekt. Spannender finde ich Systeme, in denen Beziehungen zwischen verschiedenen Elementen langfristige Dynamiken erzeugen und sich durch Anpassung weiterentwickeln können.",
   questions: [
     "Wie entstehen Systeme, die sich langfristig selbst tragen?",
-    "Welche Beziehungen machen Systeme resilient oder fragil?",
+    "Wie lernen Systeme, sich anzupassen - und wer kontrolliert diesen Prozess?",
   ],
 },
 
@@ -68,7 +68,7 @@ interests: {
     "Nicht jedes Projekt muss direkt eine marktfähige Lösung liefern. Mich interessiert Gestaltung auch als Mittel, um Systeme sichtbar zu machen, Abhängigkeiten offenzulegen oder neue Perspektiven überhaupt erst denkbar zu machen.",
   questions: [
     "Welche Abhängigkeiten bleiben oft unsichtbar?",
-    "Welche Systeme nehmen wir als selbstverständlich hin?",
+    "Welche Systeme nehmen wir als selbstverständlich hin ohne sie zu hinterfragen?",
   ],
 },
   ],
@@ -78,7 +78,7 @@ work: {
   eyebrow: "How I work",
 
   title:
-    "Mein Prozess beginnt meistens mit einer Frage, bei der ich das Gefühl habe, dass noch mehr dahinter steckt.",
+    "Mein Prozess beginnt meist mit einer Frage, die größer wird, je tiefer ich eintauche.",
 
   items: [
     {
@@ -172,13 +172,13 @@ intro:
       values: [
         "Werkstudentische Erfahrung bei Petleo mit User Research, Produkttests und Informationsaufbereitung",
         "AI-gestützte Recherche- und Content-Workflows",
-        "Kommunikation und gestalterische Mitarbeit bei Be The Proud",
+        "Kommunikation und gestalterische Mitarbeit bei The Proud",
       ],
     },
     {
       label: "Umsetzung",
       values: [
-        "technische Prototypen mit React / Next.js, APIs, Haskell, SuperCollider und Datenbanken",
+        "technische Prototypen mit React / Next.js, APIs, Haskell, SuperCollider, neo4j, python, Figma, Adobe Cloud",
         "physische Modelle und Materialexperimente mit CAD, 3D-Druck, Lasercutting, Löten, Keramik und weiteren Materialien",
       ],
     },

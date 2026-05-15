@@ -291,7 +291,7 @@ interactionSection: {
             Wie kann ein KI-gestütztes Lernsystem Nutzer:innen dabei unterstützen, mnemotechnische Verfahren wie den Gedächtnispalast so anzuwenden, dass selbstgenerierte Assoziationen gestärkt und langfristiger Wissenserhalt gefördert werden?
             `,
     motivation: `
-            Mnemotechniken wie die Methode der Loci gelten als effektive Strategien zur Gedächtnisbildung, werden jedoch im Bildungskontext kaum systematisch vermittelt. In formalen Bildungskontexten werden solche Verfahren jedoch kaum systematisch vermittelt. Die Erstellung individueller, bildgestützter Assoziationen erfordert ein hohes Maß an kognitiver Eigenleistung und Personalisierung, das sich nur schwer mit standardisierten Lernumgebungen vereinbaren lässt. Gleichzeitig fehlt es häufig an didaktischer Verankerung und methodischer Ausbildung.
+            Mnemotechniken wie die Methode der Loci gelten als effektive Strategien zur Gedächtnisbildung, werden jedoch im Bildungskontext kaum systematisch vermittelt. Die Erstellung individueller, bildgestützter Assoziationen erfordert ein hohes Maß an kognitiver Eigenleistung und Personalisierung, das sich nur schwer mit standardisierten Lernumgebungen vereinbaren lässt. Gleichzeitig fehlt es häufig an didaktischer Verankerung und methodischer Ausbildung.
 
             Aktuelle Entwicklungen im Bereich Adaptiver Lernsysteme zeigen Potenziale in adaptiver Personalisierung, dialogischer Interaktion und kontextsensitiver Unterstützung von Lernprozessen.
 
@@ -308,8 +308,7 @@ interactionSection: {
 
             Die Methode ermöglicht sowohl die temporäre Speicherung alltagsnaher Informationen als auch den Aufbau langfristiger, komplexer Wissensstrukturen. Ihre Effektivität hängt wesentlich von wiederholter Anwendung, klarer Strukturierung und der Qualität der gebildeten Assoziationen ab.
 
-            Im gegenwärtigen Kontext digitaler Technologien zeigt sich jedoch eine zunehmende Auslagerung kognitiver Prozesse in externe Systeme (cognitive offloading), wodurch die Nutzung interner Gedächtnisstrategien an Bedeutung verliert.`,
-                },
+            `, },
     {
       title: "Neurologische Grundlagen: Wie lernt der Mensch?",
       text: `
@@ -330,17 +329,17 @@ interactionSection: {
 
           Innerhalb der KI wird maschinelles Lernen als datenbasiertes Verfahren beschrieben, das aus Beispielen generalisierbare Strukturen ableitet. Deep Learning erweitert diesen Ansatz durch mehrschichtige neuronale Netze zur Verarbeitung hochdimensionaler Daten. Im Fokus dieser Arbeit stehen große Sprachmodelle (LLMs) und generative KI-Systeme, die auf probabilistischen Vorhersagen basieren und zur Erzeugung neuer Inhalte eingesetzt werden. Damit bilden sie die technische Grundlage für dialogische, adaptive und sprachbasierte Interaktion im späteren Systemkonzept.
           `  },
-{
-      title: "Adaptive lernsysteme",
-      text: `
-          Digitale Lernsysteme ermöglichen die strukturierte Unterstützung von Lernprozessen durch interaktive und technisch vermittelte Umgebungen. Sie gestalten meist den Lernprozess aktiv mit, indem sie Inhalte strukturieren, Rückmeldungen geben und Interaktionen ermöglichen.
+        
+  {
+  title: "Mensch-Computer-Lernsysteme",
+  text: `
+Mensch-Computer-Lernsysteme können als kybernetische Rückkopplungssysteme verstanden werden, in denen Lernen durch kontinuierliche Interaktion zwischen Mensch und System entsteht. Aufbauend auf Wiener und Pask werden Lernprozesse dabei nicht als lineare Wissensvermittlung, sondern als adaptive Regelkreise beschrieben, in denen Feedback, Schwierigkeit und Inhalte dynamisch angepasst werden.
 
-          Ein zentraler Bestandteil solcher Systeme sind adaptive Mechanismen, durch die Inhalte und Interaktionen an individuelle Voraussetzungen, Nutzungsverhalten und Lernprozesse angepasst werden können. Diese Anpassung erfolgt auf Grundlage von Rückkopplungsschleifen, in denen Eingaben verarbeitet und in veränderte Systemreaktionen überführt werden.
+Aktuelle Systeme übernehmen zunehmend regulatorische Aufgaben im Lernprozess. Modelle wie HHAIR beschreiben deshalb eine Balance zwischen Offloading und Onloading, bei der Systeme kurzfristig entlasten, regulatorische Kontrolle langfristig jedoch wieder an Lernende zurückgeben sollen, um Selbstregulation zu fördern.
 
-          Innerhalb dieser Entwicklung bilden KI-basierte Systeme eine spezifische Ausprägung digitaler Lernsysteme, insbesondere im Kontext dialogischer Interaktion. Dabei bleibt der Mensch als aktiver Bestandteil im System integriert (Human-in-the-loop) und wirkt an der Strukturierung und Gestaltung des Lernprozesses mit.
-
-          Lernen wird in diesem Zusammenhang als dynamischer Prozess verstanden, der durch kontinuierliche Wechselwirkungen zwischen Nutzer und System entsteht. Eine zentrale Herausforderung besteht darin, unterstützende Systemfunktionen mit der Aufrechterhaltung kognitiver Eigenleistung in Balance zu halten.`,
-              },
+Mixed-Initiative-Modelle, Human-in-the-loop Ansätze sowie partizipative und transparente Systemgestaltung adressieren die Frage, wie adaptive Systeme menschliche Agency erhalten können. Gamification kann Motivation und Aufmerksamkeit unterstützen, birgt jedoch das Risiko, Lernprozesse auf extrinsische Belohnungsmechanismen zu reduzieren.
+`,
+}
   ],
 
   summaryCard: {
@@ -354,8 +353,8 @@ interactionSection: {
   eyebrow: "Research Overview",
   title: "Iterative Design-Based Research Process",
   description:
-    `Diese Arbeit folgt einem iterativen, forschungsbasierten Designprozess. Die theoretischen Grundlagen wurden durch zwei Usertests überprüft, erweitert und kontinuierlich reflektiert. Die daraus gewonnenen Erkenntnisse aus Theorie und Interaktion wurden zu Designprinzipien verdichtet, die in die Entwicklung eines konzeptionellen Systemmodells eingeflossen sind.`,
-  image: "/Images/projects/iteration.png",
+   "Das Projekt entwickelte sich iterativ zwischen theoretischer Recherche, zwei Usertests und kontinuierlicher Reflexion. Die Erkenntnisse aus Theorie und Empirie wurden in Designprinzipien übersetzt und flossen in die Entwicklung eines konzeptionellen Systemmodells ein. Dieses Systemkonzept wurde anschließend erneut mit den Designprinzipien abgeglichen und kritisch reflektiert.",
+   image: "/Images/projects/iteration.png",
   imageAlt:
     "Diagram showing the iterative design-based research process of the bachelor thesis",
 },
@@ -367,24 +366,21 @@ userResearch: {
 Ziel war es, sowohl die Ausgangssituation der Lernenden als auch die Interaktion mit einem KI-gestützten Lernsystem empirisch zu untersuchen. Während der erste Test bestehende Lernpraktiken, kognitive Voraussetzungen und Einstellungen gegenüber KI analysierte, fokussierte der zweite Test die konkrete Anwendung eines prototypischen Systems in einem geführten Lernprozess.`,
 
   testA:
-    `Der erste Usertest wurde als qualitative Vorstudie durchgeführt und diente der Exploration bestehender Lernstrategien, visueller Vorstellungskraft sowie der Wahrnehmung von KI im Lernkontext. Die Datenerhebung erfolgte durch halbstrukturierte Interviews, ergänzt durch eine Imaginationsübung, in der Teilnehmende vertraute Räume mental rekonstruieren sollten.
+    `Der erste Usertest wurde als qualitative Vorstudie durchgeführt und diente der Exploration bestehender Lernstrategien, visueller Vorstellungskraft sowie der Wahrnehmung von KI. Die Datenerhebung erfolgte durch halbstrukturierte Interviews, ergänzt durch eine Imaginationsübung, in der Teilnehmende vertraute Räume mental rekonstruieren sollten.
 
 Die Ergebnisse zeigen eine deutliche Dominanz repetitiver Lernmethoden wie wiederholtes Lesen, Abschreiben oder Karteikartenlernen. Diese Strategien wurden jedoch häufig als monoton, anstrengend und wenig nachhaltig beschrieben. Gleichzeitig zeigte sich, dass die Fähigkeit zur räumlich-visuellen Vorstellung bei den meisten Teilnehmenden grundsätzlich vorhanden ist, im Lernprozess jedoch kaum bewusst genutzt wird.
 
 Ein weiterer zentraler Befund betrifft den Umgang mit KI: Die Teilnehmenden verfügten bereits über erste Berührungspunkte mit KI-Systemen, insbesondere in Form von textbasierten Anwendungen. Die Wahrnehmung war dabei ambivalent. Während einige die Unterstützung als hilfreich und effizient einordneten, äußerten andere Unsicherheiten hinsichtlich Verlässlichkeit, Kontrolle und eigener Abhängigkeit. KI wurde somit nicht als neutrale Technologie wahrgenommen, sondern als System, dem aktiv vertraut oder misstraut wird.
 
-Insgesamt macht der Usertest eine Diskrepanz sichtbar zwischen vorhandenen kognitiven Fähigkeiten, bestehenden Lernpraktiken und der tatsächlichen Nutzung digitaler Unterstützung.`,
-  testB:
-    `Der zweite Usertest untersuchte die Interaktion mit einem KI-gestützten, dialogbasierten Prototypen zur Vermittlung der Gedächtnispalast-Methode. Der Test folgte einem strukturierten Ablauf, in dem alle Teilnehmenden durch denselben Lernprozess geführt wurden: Auswahl eines vertrauten Raums, Definition von Stationen, Entwicklung von bildhaften Assoziationen sowie anschließende Wiederholung und Abfrage.
+Der Usertest bestätigte zentrale Hypothesen der Untersuchung: Repetitive Lernmethoden dominieren weiterhin den Lernalltag. Zudem zeigte sich, dass räumliche Erinnerungen selbst nach Jahren ohne physischen Kontakt erstaunlich präsent bleiben.`,
+ testB:
+`Der zweite Usertest untersuchte einen KI-gestützten, dialogbasierten Prototypen zur Vermittlung der Gedächtnispalast-Methode. Alle Nutzer:innen durchliefen denselben Lernprozess: Sie wählten einen vertrauten Raum, definierten Stationen und entwickelten zu fünf Planeten jeweils eigene mentale Bilder, um Namen und Fakten räumlich zu verankern.
 
-Im Gegensatz zur Vorstudie handelt es sich hierbei um einen Anwendungstest, bei dem zwei zentrale Unsicherheitsfaktoren zusammenkommen: die Nutzer selbst sowie das Verhalten des KI-Systems. Beide wirken als „Blackboxes“, deren interne Prozesse nicht vollständig kontrollierbar oder vorhersagbar sind. Dies führt dazu, dass die Interaktion nicht vollständig standardisierbar ist und Ergebnisse stets im Kontext individueller Unterschiede interpretiert werden müssen.
+Dieser Anwendungstest lässt sich jedoch nur bedingt standardisieren, da hier zwei schwer kontrollierbare Variablen gleichzeitig aufeinandertreffen: die Nutzer:innen selbst sowie das Verhalten des Systems. Während sich Nutzer:innen in Vorstellungskraft, Kommunikationsverhalten und Unterstützungsbedarf unterscheiden, reagiert auch das System situativ und nicht immer vollständig vorhersehbar auf Eingaben. Diese doppelte Blackbox muss bei der Interpretation der Ergebnisse berücksichtigt werden.
 
-Die Ergebnisse zeigen, dass die Methode grundsätzlich nachvollziehbar ist, jedoch nicht unmittelbar verstanden wird, sondern sich erst im Verlauf der Interaktion erschließt. Gleichzeitig wurden deutliche Unterschiede im Kommunikationsverhalten, im Lerntempo sowie im Unterstützungsbedarf sichtbar.
+Die Ergebnisse zeigen, dass die Methode insgesamt sehr gut nachvollzogen und überwiegend positiv bewertet wurde. Alle Teilnehmenden konnten die Informationen erfolgreich räumlich verankern und in der abschließenden Abfrage größtenteils korrekt abrufen. Besonders die praktische Anwendung half dabei, die Methode schnell zu verstehen.
 
-Besonders relevant ist die Rolle der KI: Während sie in Teilen unterstützend wirkt, bleibt sie in anderen Situationen zu reaktiv und erkennt nicht zuverlässig, wann zusätzliche Anleitung oder Struktur erforderlich ist. Dadurch wird deutlich, dass die Wirksamkeit eines solchen Systems weniger von der Methode selbst abhängt, sondern von der Qualität der Interaktionsgestaltung.`,
-},
-
-  /*overview: {
+Zusätzlich wurden die vollständigen Chatverläufe analysiert, um die Qualität der Mensch-KI-Interaktion genauer zu untersuchen. Betrachtet wurden unter anderem der Unterstützungsbedarf bei der Bildgenerierung, die Anzahl der Dialogschleifen, Veränderungen im Kommunikationsverlauf, die Qualität der entstehenden Bilder sowie die Frage, ob das System fehlende Informationen erkennt oder zu früh in den Erinnerungsprozess eingreift. Dabei wurden sowohl funktionierende Interaktionsmuster als auch konkrete Schwächen im Systemverhalten sichtbar.`},  /*overview: {
     context: `
 Diese wissenschaftliche Arbeit bewegt sich zeischen koginition, mensch-kiinteraktion und cybernetcs. eine balance, zwischen partizipation und überfordunerg, zwischen onload und offload, zwischen wissen lernen und lernen zu lernen, ist ein großes spannungsfeld. 
 `,
@@ -505,7 +501,7 @@ Auch die partizipative Steuerlogik bleibt ambivalent. Sie soll Kontrolle und Tra
 
 Darüber hinaus zeigt sich eine Diskrepanz zwischen konzeptioneller Modellierung und praktischer Umsetzbarkeit. Die entworfene Systemarchitektur setzt ein hohes Maß an Kontextverständnis, Anpassungsfähigkeit und stabiler Echtzeitverarbeitung voraus, das in prototypischen Umsetzungen bislang nur eingeschränkt erreicht wird.
 
-Die rein sprachbasierte Interaktion verstärkt diese Problematik zusätzlich. Sie ermöglicht zwar eine naturnahe, kontinuierliche Kommunikation, ist jedoch stark kontextabhängig und nicht in allen Nutzungssituationen oder für alle Nutzergruppen gleichermaßen geeignet.
+Die rein sprachbasierte Interaktion verstärkt diese Problematik zusätzlich. Sie ermöglicht zwar eine natürliche, kontinuierliche Kommunikation, ist jedoch stark kontextabhängig und nicht in allen Nutzungssituationen oder für alle Nutzergruppen gleichermaßen geeignet.
 
 Insgesamt wird das System weniger als abgeschlossene Lösung, sondern vielmehr als konzeptioneller Rahmen sichtbar, der zentrale Fragen zur Gestaltung lernunterstützender KI-Systeme aufwirft, ohne diese vollständig aufzulösen.`, },
 },
@@ -631,8 +627,6 @@ Insgesamt versteht sich die Arbeit als konzeptioneller Beitrag zur Gestaltung di
 
 nextStep: `
 Zukünftige Arbeit sollte sich auf die praktische Umsetzung und Evaluation des Systemkonzepts konzentrieren. Besonders relevant ist dabei die langfristige Nutzung: Wie entwickelt sich die Interaktion zwischen Mensch und System über mehrere Lernphasen hinweg, und in welchem Maß unterstützt das System selbstgesteuertes Lernen?
-
-Gleichzeitig zeigen erste prototypische Umsetzungen technische Herausforderungen, insbesondere in Bezug auf Latenz, Modellkapazität und die Integration sprachbasierter Systeme.
 
 Darüber hinaus bleiben methodische und ethische Fragen offen, etwa im Umgang mit intransparenten Systemverhalten, Datensensibilität und der Gestaltung partizipativer, nachvollziehbarer KI-Interaktionen.
 `,

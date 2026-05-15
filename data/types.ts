@@ -12,7 +12,6 @@ export type ProjectMediaItem = {
   language?: string;
   embedUrl?: string;
   link?: string;
-  caption?: string;
 };
 
 export type ProjectStorySlide = {

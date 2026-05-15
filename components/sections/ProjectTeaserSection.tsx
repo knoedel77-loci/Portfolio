@@ -10,7 +10,7 @@ const projects = [
     href: "/projects/dj-ai",
     media: {
       type: "video" as const,
-      src: "/images/projects/Algorave.mp4",
+      src: "/Images/projects/Algorave.mp4",
     },
     summary:
       "Ein experimentelles Live-Coding-System, in dem KI-generierter Musikcode direkt in den performativen Workflow zurückgespielt und weiterbearbeitet werden kann.",
@@ -22,7 +22,7 @@ const projects = [
     href: "/projects/memory-palace-ba",
     media: {
       type: "image" as const,
-      src: "/images/projects/Bachelor.png",
+      src: "/Images/projects/Bachelor.png",
     },
     summary:
       "Ein research-basiertes Systemkonzept zur Frage, wie KI Lernprozesse unterstützen kann, ohne selbstgeneriertes Denken und kognitive Eigenständigkeit zu ersetzen.",
@@ -34,7 +34,7 @@ const projects = [
     href: "/projects/hacking-porcelain",
     media: {
       type: "image" as const,
-      src: "/images/projects/Pasta.png",
+      src: "/Images/projects/Pasta.png",
     },
     summary:
       "Eine experimentelle Untersuchung keramischer Formprozesse, bei der Materialverhalten, Schwerkraft und menschliche Kontrolle als gestaltende Parameter verstanden werden.",
@@ -46,7 +46,7 @@ const projects = [
     href: "/projects/additional-projects",
     media: {
       type: "image" as const,
-      src: "/images/projects/Mindmap.png",
+      src: "/Images/projects/Mindmap.png",
     },
     summary:
       "Eine Auswahl kleinerer Projekte, die technische, räumliche, soziale oder materielle Fragestellungen aus unterschiedlichen Blickwinkeln untersuchen.",

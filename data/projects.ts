@@ -136,7 +136,7 @@ interactionSection: {
     },
     {
       
-      image: "/public/Images/projects/technicalfloww.png",
+      image: "/Images/projects/technicalfloww.png",
       imageAlt:
         "Technical sketch showing how prompt, code context, parent prompt and references are assembled before AI code generation",
       caption:

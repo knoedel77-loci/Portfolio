@@ -73,13 +73,10 @@ export default function ProjectTeaserSection() {
 
   return (
     <section
-      id="projects"
-      ref={ref}
-      className={`scroll-mt-28 mx-auto max-w-6xl px-6 pt-10 pb-32 transition-all duration-1000 md:scroll-mt-32 md:pb-40 ${
-        visible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-      }`}
-    >
-    
+  id="projects"
+  ref={ref}
+  className="scroll-mt-28 mx-auto max-w-6xl px-6 pt-10 pb-32 md:scroll-mt-32 md:pb-40"
+>
       <div className="mb-20 max-w-2xl">
         <p className="mb-3 text-sm uppercase tracking-[0.12em] text-white/50">
           Selected Projects
